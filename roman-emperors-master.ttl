@@ -1,0 +1,1116 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+dbpedia:Augustus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Augustus> ;
+	foaf:name "Augustus" , "Gaius Julius Caesar Octavianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/auggie.htm> ;
+	owl:sameAs <http://viaf.org/viaf/18013086> .
+
+dbpedia:Tiberius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tiberius> ;
+	foaf:name "Tiberius" , "Tiberius Claudius Nero" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/tiberius.htm> ;
+	owl:sameAs <http://viaf.org/viaf/89600176> .
+
+dbpedia:Caligula a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Caligula> ;
+	foaf:name "Caligula" , "Gaius Caesar Augustus Germanicus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/gaius.htm> ;
+	foaf:name "Gaius" ;
+	owl:sameAs <http://viaf.org/viaf/59052351> .
+
+dbpedia:Claudius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Claudius> ;
+	foaf:name "Claudius" , "Ti. Claudius Nero Germanicus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/claudius.htm> ;
+	owl:sameAs <http://viaf.org/viaf/87172361> .
+
+dbpedia:Nero a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nero> ;
+	foaf:name "Nero" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/nero.htm> ;
+	owl:sameAs <http://viaf.org/viaf/84036175> .
+
+dbpedia:Galba a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Galba> ;
+	foaf:name "Galba" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/galba.htm> ;
+	owl:sameAs <http://viaf.org/viaf/27034761> .
+
+dbpedia:Otho a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Otho> ;
+	foaf:name "Otho" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/otho.htm> ;
+	owl:sameAs <http://viaf.org/viaf/84036319> .
+
+dbpedia:Vitellius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Vitellius> ;
+	foaf:name "Vitellius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/vitell.htm> ;
+	owl:sameAs <http://viaf.org/viaf/16012563> .
+
+dbpedia:Vespasian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Vespasian> ;
+	foaf:name "Vespasian" , "Titus Flavius Vespasianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/vespasia.htm> ;
+	owl:sameAs <http://viaf.org/viaf/96539514> .
+
+dbpedia:Titus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Titus> ;
+	foaf:name "Titus" , "Titus Flavius Vespasianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/titus.htm> ;
+	owl:sameAs <http://viaf.org/viaf/83217593> .
+
+dbpedia:Domitian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Domitian> ;
+	foaf:name "Domitian" , "Titus Flavius Domitianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/domitian.htm> ;
+	owl:sameAs <http://viaf.org/viaf/96284078> .
+
+dbpedia:Nerva a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nerva> ;
+	foaf:name "Nerva" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/nerva.htm> ;
+	owl:sameAs <http://viaf.org/viaf/69725573> .
+
+dbpedia:Trajan a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Trajan> ;
+	foaf:name "Trajan" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/trajan.htm> ;
+	owl:sameAs <http://viaf.org/viaf/88067472> .
+
+dbpedia:Hadrian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Hadrian> ;
+	foaf:name "Hadrian" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/hadrian.htm> ;
+	owl:sameAs <http://viaf.org/viaf/82440741> .
+
+dbpedia:Antoninus_Pius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Antoninus_Pius> ;
+	foaf:name "Antoninus Pius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/tonypis.htm> ;
+	owl:sameAs <http://viaf.org/viaf/62833890> .
+
+dbpedia:Marcus_Aurelius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Marcus_Aurelius> ;
+	foaf:name "Marcus Aurelius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/marcaur.htm> ;
+	owl:sameAs <http://viaf.org/viaf/102895066> .
+
+dbpedia:Lucius_Verus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lucius_Verus> ;
+	foaf:name "Lucius Verus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/lverus.htm> ;
+	owl:sameAs <http://viaf.org/viaf/42631348> .
+
+dbpedia:Avidius_Cassius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Avidius_Cassius> ;
+	foaf:name "Avidius Cassius" ;
+	owl:sameAs <http://viaf.org/viaf/50622155> .
+
+dbpedia:Commodus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Commodus> ;
+	foaf:name "Commodus" , "Marcus Aurelius Commodus Antoninus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/commod.htm> ;
+	owl:sameAs <http://viaf.org/viaf/23502412> .
+
+dbpedia:Pertinax a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pertinax> ;
+	foaf:name "Pertinax" , "Publius Helvius Pertinax" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/pertinax.htm> ;
+	owl:sameAs <http://viaf.org/viaf/74649434> .
+
+dbpedia:Didius_Julianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Didius_Julianus> ;
+	foaf:name "Didius Julianus" , "Marcus Didius Severus Julianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/didjul.htm> ;
+	owl:sameAs <http://viaf.org/viaf/121896833> .
+
+dbpedia:Septimius_Severus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Septimius_Severus> ;
+	foaf:name "Septimius Severus" , "Lucius Septimius Severus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/sepsev.htm> ;
+	owl:sameAs <http://viaf.org/viaf/36952961> .
+
+dbpedia:Pescennius_Niger a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pescennius_Niger> ;
+	foaf:name "Pescennius Niger" ;
+	owl:sameAs <http://viaf.org/viaf/40174483> .
+
+dbpedia:Clodius_Albinus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Clodius_Albinus> ;
+	foaf:name "Clodius Albinus" ;
+	owl:sameAs <http://viaf.org/viaf/60152178> .
+
+dbpedia:Caracalla a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Caracalla> ;
+	foaf:name "Caracalla" , "Lucius Septimius Bassianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/caracala.htm> ;
+	foaf:name " Marcus Aurelius Antoninus" ;
+	owl:sameAs <http://viaf.org/viaf/88672215> .
+
+dbpedia:Publius_Septimius_Geta a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Publius_Septimius_Geta> ;
+	foaf:name "Geta" , "Publius Septimius Geta" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/geta.htm> ;
+	owl:sameAs <http://viaf.org/viaf/77699459> .
+
+dbpedia:Macrinus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Macrinus> ;
+	foaf:name "Macrinus" , "Marcus Opellius Macrinus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/macrinus.htm> ;
+	owl:sameAs <http://viaf.org/viaf/89202499> .
+
+dbpedia:Diadumenian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Diadumenian> ;
+	foaf:name "Diadumenian" , "Diadumenianius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/diadumen.htm> ;
+	owl:sameAs <http://viaf.org/viaf/89203309> .
+
+dbpedia:Elagabalus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Elagabalus> ;
+	foaf:name "Elagabalus" , "Marcus Aurelius Antoninus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/elagabal.htm> ;
+	owl:sameAs <http://viaf.org/viaf/24583475> .
+
+dbpedia:Alexander_Severus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexander_Severus> ;
+	foaf:name "Alexander Severus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/alexsev.htm> ;
+	owl:sameAs <http://viaf.org/viaf/50018342> .
+
+dbpedia:Maximinus_Thrax a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Maximinus_Thrax> ;
+	foaf:name "Maximinus Thrax" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/maxthrax.htm> ;
+	owl:sameAs <http://viaf.org/viaf/72703271> .
+
+dbpedia:Gordian_I a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gordian_I> ;
+	foaf:name "Gordian I" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/gordo1.htm> ;
+	owl:sameAs <http://viaf.org/viaf/3274737> .
+
+dbpedia:Gordian_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gordian_II> ;
+	foaf:name "Gordian II" ;
+	owl:sameAs <http://viaf.org/viaf/47565555> .
+
+dbpedia:Pupienus_and_Balbinus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pupienus_and_Balbinus> ;
+	foaf:name "Pupienus" ;
+	owl:sameAs <http://viaf.org/viaf/89202531> .
+
+dbpedia:Gordian_III a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gordian_III> ;
+	foaf:name "Gordian III" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/gordo3.htm> ;
+	owl:sameAs <http://viaf.org/viaf/89202520> .
+
+dbpedia:Sabinianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sabinianus> ;
+	foaf:name "Sabinianus" .
+
+dbpedia:Philip_the_Arab a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Philip_the_Arab> ;
+	foaf:name "Philip the Arab" , "Marcus Julius Philippus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/philarab.htm> ;
+	owl:sameAs <http://viaf.org/viaf/67260910> .
+
+dbpedia:Pacatianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pacatianus> ;
+	foaf:name "Pacatianus" .
+
+dbpedia:Jotapianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jotapianus> ;
+	foaf:name "Jotapianus" .
+
+dbpedia:Silbannacus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Silbannacus> ;
+	foaf:name "Silbannacus" .
+
+dbpedia:Decius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Decius> ;
+	foaf:name "Decius" , "Trajan Decius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/decius.htm> ;
+	foaf:name " Gaius Messius Quintus Decius" ;
+	owl:sameAs <http://viaf.org/viaf/10649322> .
+
+dbpedia:Gaius_Julius_Priscus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gaius_Julius_Priscus> ;
+	foaf:name "Priscus" .
+
+dbpedia:Licinianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Licinianus> ;
+	foaf:name "Licinianus" .
+
+dbpedia:Herennius_Etruscus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Herennius_Etruscus> ;
+	foaf:name "Herennius Etruscus" .
+
+dbpedia:Hostilian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Hostilian> ;
+	foaf:name "Hostilian" .
+
+dbpedia:Trebonianus_Gallus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Trebonianus_Gallus> ;
+	foaf:name "Gallus" .
+
+dbpedia:Volusianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Volusianus> ;
+	foaf:name "Volusianus" .
+
+dbpedia:Aemilianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aemilianus> ;
+	foaf:name "Aemilian" , "Marcus Aemilius Aemilianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/aemaem.htm> .
+
+<http://dbpedia.org/resource/Valerian_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Valerian_(emperor)> ;
+	foaf:name "Valerian" , "P. Licinius Valerianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/gallval.htm> ;
+	owl:sameAs <http://viaf.org/viaf/89202605> .
+
+dbpedia:Gallienus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gallienus> ;
+	foaf:name "Gallienus" , "P. Licinius Egnatius Gallienus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/gallval.htm> ;
+	owl:sameAs <http://viaf.org/viaf/10637212> .
+
+dbpedia:Saloninus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Saloninus> ;
+	foaf:name "Saloninus" .
+
+dbpedia:Ingenuus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Ingenuus> ;
+	foaf:name "Ingenuus" .
+
+dbpedia:Regalianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Regalianus> ;
+	foaf:name "Regalianus" .
+
+dbpedia:Macrianus_Major a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Macrianus_Major> ;
+	foaf:name "Macrianus Major" .
+
+dbpedia:Macrianus_Minor a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Macrianus_Minor> ;
+	foaf:name "Macrianus Minor" .
+
+dbpedia:Quietus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Quietus> ;
+	foaf:name "Quietus" .
+
+dbpedia:Mussius_Aemilianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mussius_Aemilianus> ;
+	foaf:name "Mussius Aemilianus" .
+
+dbpedia:Aureolus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aureolus> ;
+	foaf:name "Aureolus" .
+
+dbpedia:Claudius_Gothicus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Claudius_Gothicus> ;
+	foaf:name "Claudius Gothicus" , "M. Aurelius Claudius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/claudgot.htm> ;
+	foaf:name " Claudius II" ;
+	owl:sameAs <http://viaf.org/viaf/27874193> .
+
+dbpedia:Quintillus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Quintillus> ;
+	foaf:name "Quintillus" .
+
+dbpedia:Aurelian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aurelian> ;
+	foaf:name "Aurelian" , "Lucius Domitius Aurelianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/aurelian.htm> ;
+	owl:sameAs <http://viaf.org/viaf/77109448> .
+
+<http://dbpedia.org/resource/Septimius_(Roman_emperor_usurper)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Septimius_(Roman_emperor_usurper)> ;
+	foaf:name "Septimius" .
+
+dbpedia:Marcus_Claudius_Tacitus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Marcus_Claudius_Tacitus> ;
+	foaf:name "Tacitus" , "Marcus Claudius Tacitus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/tacitus.htm> ;
+	owl:sameAs <http://viaf.org/viaf/20744377> .
+
+dbpedia:Florianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Florianus> ;
+	foaf:name "Florianus" , "Florian" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/florian.htm> ;
+	foaf:name " Marcus Annius Florianus" .
+
+dbpedia:Marcus_Aurelius_Probus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Marcus_Aurelius_Probus> ;
+	foaf:name "Probus" , "M. Aurelius Probus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/probus.htm> ;
+	owl:sameAs <http://viaf.org/viaf/72190445> .
+
+dbpedia:Julius_Saturninus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Julius_Saturninus> ;
+	foaf:name "Julius Saturninus" .
+
+dbpedia:Proculus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Proculus> ;
+	foaf:name "Proculus" .
+
+<http://dbpedia.org/resource/Bonosus_(usurper)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Bonosus_(usurper)> ;
+	foaf:name "Bonosus" .
+
+dbpedia:Carus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Carus> ;
+	foaf:name "Carus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/carus.htm> .
+
+dbpedia:Carinus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Carinus> ;
+	foaf:name "Carinus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/carinus.htm> .
+
+dbpedia:Numerian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Numerian> ;
+	foaf:name "Numerian" , "Numerianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/numerian.htm> .
+
+dbpedia:Postumus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Postumus> ;
+	foaf:name "Postumus" .
+
+dbpedia:Laelianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Laelianus> ;
+	foaf:name "Laelianus" .
+
+dbpedia:Marcus_Aurelius_Marius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Marcus_Aurelius_Marius> ;
+	foaf:name "Marius" .
+
+dbpedia:Victorinus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Victorinus> ;
+	foaf:name "Victorinus" .
+
+dbpedia:Domitianus_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Domitianus_II> ;
+	foaf:name "Domitianus II" .
+
+dbpedia:Tetricus_I a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tetricus_I> ;
+	foaf:name "Tetricus I" .
+
+dbpedia:Carausius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Carausius> ;
+	foaf:name "Carausius" .
+
+dbpedia:Allectus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Allectus> ;
+	foaf:name "Allectus" .
+
+dbpedia:Diocletian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Diocletian> ;
+	foaf:name "Diocletian" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/dioclet.htm> ;
+	owl:sameAs <http://viaf.org/viaf/70259756> .
+
+dbpedia:Maximian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Maximian> ;
+	foaf:name "Maximian" , "Maximianus Herculius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/maxherc.htm> ;
+	owl:sameAs <http://viaf.org/viaf/50478873> .
+
+dbpedia:Constantius_Chlorus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantius_Chlorus> ;
+	foaf:name "Constantius Chlorus" , "Constantius I Chlorus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/chlorus.htm> ;
+	owl:sameAs <http://viaf.org/viaf/23572704> .
+
+dbpedia:Galerius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Galerius> ;
+	foaf:name "Galerius" , "Caius Galerius Valerius Maximianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/galerius.htm> ;
+	owl:sameAs <http://viaf.org/viaf/66372731> .
+
+dbpedia:Flavius_Valerius_Severus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Flavius_Valerius_Severus> ;
+	foaf:name "Severus II" , "Flavius Valerius Severus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/severus.htm> ;
+	owl:sameAs <http://viaf.org/viaf/89764900> .
+
+dbpedia:Maxentius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Maxentius> ;
+	foaf:name "Maxentius" , "Marcus Aurelius Valerius Maxentius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/maxentiu.htm> ;
+	owl:sameAs <http://viaf.org/viaf/3920874> .
+
+dbpedia:Constantine_the_Great a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_the_Great> ;
+	foaf:name "Constantine I" , "Flavius Valerius Constantinus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/conniei.htm> ;
+	owl:sameAs <http://viaf.org/viaf/97746098> .
+
+dbpedia:Domitius_Alexander a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Domitius_Alexander> ;
+	foaf:name "Domitius Alexander" .
+
+dbpedia:Licinius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Licinius> ;
+	foaf:name "Licinius" , "Valerius Licinianus Licinius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/licinius.htm> ;
+	owl:sameAs <http://viaf.org/viaf/66856266> .
+
+dbpedia:Maximinus_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Maximinus_II> ;
+	foaf:name "Maximinus Daia" , "Caius Valerius Galerius Maximinus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/daia.htm> ;
+	owl:sameAs <http://viaf.org/viaf/69721940> .
+
+dbpedia:Valerius_Valens a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Valerius_Valens> ;
+	foaf:name "Valerius Valens" .
+
+dbpedia:Sextus_Martinianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sextus_Martinianus> ;
+	foaf:name "Sextus Martinianus" .
+
+<http://dbpedia.org/resource/Constantine_II_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_II_(emperor)> ;
+	foaf:name "Constantine II" , "Flavius Claudius Constantinus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/conii.htm> ;
+	owl:sameAs <http://viaf.org/viaf/82697127> .
+
+dbpedia:Constantius_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantius_II> ;
+	foaf:name "Constantius II" , "Flavius Julius Constantius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/constaii.htm> ;
+	owl:sameAs <http://viaf.org/viaf/35247811> .
+
+dbpedia:Constans a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constans> ;
+	foaf:name "Constans I" , "Flavius Julius Constans" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/consi.htm> ;
+	owl:sameAs <http://viaf.org/viaf/197970721> .
+
+dbpedia:Magnentius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Magnentius> ;
+	foaf:name "Magnentius" .
+
+dbpedia:Vetranio a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Vetranio> ;
+	foaf:name "Vetranio" .
+
+dbpedia:Nepotianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nepotianus> ;
+	foaf:name "Nepotianus" .
+
+dbpedia:Julian_the_Apostate a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Julian_the_Apostate> ;
+	foaf:name "Julian" , "Julian The Apostate" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/julian.htm> ;
+	foaf:name " Flavius Claudius Julianus" ;
+	owl:sameAs <http://viaf.org/viaf/57406701> .
+
+<http://dbpedia.org/resource/Jovian_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jovian_(emperor)> ;
+	foaf:name "Jovian" , "Flavius Jovianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/jovian.htm> ;
+	owl:sameAs <http://viaf.org/viaf/12693872> .
+
+dbpedia:Valentinian_I a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Valentinian_I> ;
+	foaf:name "Valentinian I" , "Flavius Valentinianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/vali.htm> ;
+	owl:sameAs <http://viaf.org/viaf/76544789> .
+
+dbpedia:Valens a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Valens> ;
+	foaf:name "Valens" , "Flavius Valens" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/valens.htm> ;
+	owl:sameAs <http://viaf.org/viaf/64806218> .
+
+<http://dbpedia.org/resource/Procopius_(usurper)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Procopius_(usurper)> ;
+	foaf:name "Procopius" .
+
+dbpedia:Gratian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gratian> ;
+	foaf:name "Gratian" , "Flavius Gratianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/gratian.htm> ;
+	owl:sameAs <http://viaf.org/viaf/57409191> .
+
+dbpedia:Valentinian_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Valentinian_II> ;
+	foaf:name "Valentinian II" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/valenii.htm> ;
+	owl:sameAs <http://viaf.org/viaf/32800218> .
+
+dbpedia:Magnus_Maximus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Magnus_Maximus> ;
+	foaf:name "Magnus Maximus" .
+
+dbpedia:Flavius_Victor a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Flavius_Victor> ;
+	foaf:name "Flavius Victor" .
+
+dbpedia:Eugenius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Eugenius> ;
+	foaf:name "Eugenius" .
+
+dbpedia:Theodosius_I a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theodosius_I> ;
+	foaf:name "Theodosius I" , "Flavius Theodosius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/theo1.htm> ;
+	owl:sameAs <http://viaf.org/viaf/31978444> .
+
+dbpedia:Arcadius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Arcadius> ;
+	foaf:name "Arcadius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/arcadius.htm> ;
+	owl:sameAs <http://viaf.org/viaf/5728388> .
+
+<http://dbpedia.org/resource/Honorius_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Honorius_(emperor)> ;
+	foaf:name "Honorius" , "Flavius Honorius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/honorius.htm> ;
+	owl:sameAs <http://viaf.org/viaf/398923> .
+
+<http://dbpedia.org/resource/Constantine_III_(usurper)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_III_(usurper)> ;
+	foaf:name "Constantine III" .
+
+<http://dbpedia.org/resource/Constans_II_(usurper)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constans_II_(usurper)> .
+
+dbpedia:Priscus_Attalus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Priscus_Attalus> ;
+	foaf:name "Priscus Attalus" .
+
+dbpedia:Maximus_of_Hispania a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Maximus_of_Hispania> ;
+	foaf:name "Maximus" .
+
+dbpedia:Jovinus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Jovinus> ;
+	foaf:name "Jovinus" .
+
+dbpedia:Sebastianus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Sebastianus> ;
+	foaf:name "Sebastianus" .
+
+dbpedia:Theodosius_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theodosius_II> ;
+	foaf:name "Theodosius II" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/theo2.htm> ;
+	owl:sameAs <http://viaf.org/viaf/46929243> .
+
+dbpedia:Constantius_III a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantius_III> ;
+	foaf:name "Constantius III" .
+
+dbpedia:Joannes a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Joannes> ;
+	foaf:name "Joannes" .
+
+dbpedia:Valentinian_III a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Valentinian_III> ;
+	foaf:name "Valentinian III" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/valenIII.htm> ;
+	owl:sameAs <http://viaf.org/viaf/56825259> .
+
+dbpedia:Marcian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Marcian> ;
+	foaf:name "Marcian" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/marcian.htm> .
+
+dbpedia:Petronius_Maximus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Petronius_Maximus> ;
+	foaf:name "Petronius Maximus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/petmax.htm> ;
+	owl:sameAs <http://viaf.org/viaf/122232697> .
+
+dbpedia:Avitus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Avitus> ;
+	foaf:name "Avitus" , "Eparchius Avitus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/avitus.htm> ;
+	owl:sameAs <http://viaf.org/viaf/89202786> .
+
+dbpedia:Majorian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Majorian> ;
+	foaf:name "Majorian" , "Julius Valerius Maiorianus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/major.htm> ;
+	owl:sameAs <http://viaf.org/viaf/121585248> .
+
+dbpedia:Libius_Severus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Libius_Severus> ;
+	foaf:name "Libius Severus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/libius.htm> ;
+	owl:sameAs <http://viaf.org/viaf/1214340> .
+
+dbpedia:Anthemius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Anthemius> ;
+	foaf:name "Anthemius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/anthemiu.htm> ;
+	owl:sameAs <http://viaf.org/viaf/121663544> .
+
+dbpedia:Olybrius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Olybrius> ;
+	foaf:name "Olybrius" , "Ancius Olybrius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/olybrius.htm> .
+
+dbpedia:Glycerius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Glycerius> ;
+	foaf:name "Glycerius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/glyceriu.htm> .
+
+dbpedia:Julius_Nepos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Julius_Nepos> ;
+	foaf:name "Julius Nepos" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/nepos.htm> .
+
+dbpedia:Romulus_Augustus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Romulus_Augustus> ;
+	foaf:name "Romulus Augustus" , "Romulus Augustulus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/auggiero.htm> .
+
+<http://dbpedia.org/resource/Leo_I_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Leo_I_(emperor)> ;
+	foaf:name "Leo I" .
+
+<http://dbpedia.org/resource/Leo_II_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Leo_II_(emperor)> ;
+	foaf:name "Leo II" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/leo2.htm> .
+
+<http://dbpedia.org/resource/Zeno_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Zeno_(emperor)> ;
+	foaf:name "Zeno" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/zeno.htm> .
+
+dbpedia:Basiliscus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Basiliscus> ;
+	foaf:name "Basiliscus" .
+
+<http://dbpedia.org/resource/Leontius_(usurper)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Leontius_(usurper)> ;
+	foaf:name "Leontius" .
+
+<http://dbpedia.org/resource/Anastasius_I_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Anastasius_I_(emperor)> ;
+	foaf:name "Anastasius I" , "Anastasius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/anastasi.htm> .
+
+<http://dbpedia.org/resource/Longinus_(consul_486)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Longinus_(consul_486)> ;
+	foaf:name "Longinus" .
+
+dbpedia:Areobindus_Dagalaiphus_Areobindus a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Areobindus_Dagalaiphus_Areobindus> ;
+	foaf:name "Areobindus" .
+
+dbpedia:Justin_I a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Justin_I> ;
+	foaf:name "Justin I" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/justin.htm> .
+
+<http://dbpedia.org/resource/Theocritus_(comes_domesticorum)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theocritus_(comes_domesticorum)> ;
+	foaf:name "Theocritus" .
+
+dbpedia:Justinian_I a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Justinian_I> ;
+	foaf:name "Justinian I" , "Justinian" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/justinia.htm> .
+
+dbpedia:Julianus_ben_Sabar a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Julianus_ben_Sabar> ;
+	foaf:name "Julianus ben Sabar" .
+
+<http://dbpedia.org/resource/Hypatius_(consul_500)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Hypatius_(consul_500)> ;
+	foaf:name "Hypatius" .
+
+dbpedia:Stotzas a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Stotzas> ;
+	foaf:name "Stotzas" .
+
+dbpedia:John_Cottistis a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Cottistis> ;
+	foaf:name "John Cottistis" .
+
+dbpedia:Justin_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Justin_II> ;
+	foaf:name "Justin II" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/justinii.htm> .
+
+dbpedia:Tiberius_II_Constantine a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Tiberius_II_Constantine> ;
+	foaf:name "Tiberius II Constantine" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/ticonii.htm> .
+
+<http://dbpedia.org/resource/Maurice_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Maurice_(emperor)> ;
+	foaf:name "Maurice" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/mauricius.htm> .
+
+dbpedia:Phocas a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Phocas> ;
+	foaf:name "Phocas" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/phocas.htm> .
+
+dbpedia:Heraclius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Heraclius> ;
+	foaf:name "Heraclius" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/heraclis.htm> .
+
+<http://dbpedia.org/resource/Comentiolus_(brother_of_Phocas)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Comentiolus_(brother_of_Phocas)> ;
+	foaf:name "Comentiolus" .
+
+dbpedia:John_of_Conza a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_of_Conza> ;
+	foaf:name "John of Conza" .
+
+<http://dbpedia.org/resource/Eleutherius_(exarch)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Eleutherius_(exarch)> ;
+	foaf:name "Eleutherius" .
+
+dbpedia:John_Athalarichos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_Athalarichos> ;
+	foaf:name "John Athalarichos" .
+
+<http://dbpedia.org/resource/Constantine_III_(Byzantine_emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_III_(Byzantine_emperor)> ;
+	foaf:name "Constantine III" .
+
+dbpedia:Heraklonas a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Heraklonas> ;
+	foaf:name "Heraklonas" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/heraclon.htm> .
+
+dbpedia:Constans_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constans_II> ;
+	foaf:name "Constans II" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/Constan2.htm> .
+
+dbpedia:Maurikios_Chartoularios a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Maurikios_Chartoularios> ;
+	foaf:name "Maurikios Chartoularios" .
+
+<http://dbpedia.org/resource/Valentinus_(usurper)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Valentinus_(usurper)> ;
+	foaf:name "Valentinus" .
+
+dbpedia:Gregory_the_Patrician a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gregory_the_Patrician> ;
+	foaf:name "Gregory" .
+
+<http://dbpedia.org/resource/Olympius_(exarch)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Olympius_(exarch)> ;
+	foaf:name "Olympius" .
+
+dbpedia:Theodoros_Pasagnathes a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theodoros_Pasagnathes> ;
+	foaf:name "Theodoros Pasagnathes" .
+
+dbpedia:Saborios a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Saborios> ;
+	foaf:name "Saborios" .
+
+dbpedia:Constantine_IV a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_IV> ;
+	foaf:name "Constantine IV" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/Constiv.htm> .
+
+dbpedia:Mezezius a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Mezezius> ;
+	foaf:name "Mezezius" .
+
+dbpedia:Justinian_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Justinian_II> ;
+	foaf:name "Justinian II" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/Just2.htm> .
+
+dbpedia:Leontios a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Leontios> ;
+	foaf:name "Leontios" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/leonti2.htm> .
+
+dbpedia:Philippikos_Bardanes a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Philippikos_Bardanes> ;
+	foaf:name "Philippikos Bardanes" .
+
+dbpedia:Anastasios_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Anastasios_II> ;
+	foaf:name "Anastasios II" , "Anastasius II" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/anastasii.htm> .
+
+dbpedia:Theodosios_III a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theodosios_III> ;
+	foaf:name "Theodosios III" , "Theodosius III" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/theodiii.htm> .
+
+dbpedia:Leo_III_the_Isaurian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Leo_III_the_Isaurian> ;
+	foaf:name "Leo III" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/leoiii.htm> .
+
+dbpedia:Constantine_V a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_V> ;
+	foaf:name "Constantine V" , "Constantine V Copronymus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/constanv.htm> .
+
+dbpedia:Artabasdos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Artabasdos> ;
+	foaf:name "Artabasdos" .
+
+dbpedia:Leo_IV_the_Khazar a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Leo_IV_the_Khazar> ;
+	foaf:name "Leo IV" , "Leo Iv" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/leo4.htm> .
+
+dbpedia:Constantine_VI a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_VI> ;
+	foaf:name "Constantine VI" , "Constantine Vi" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/irene.htm> .
+
+dbpedia:Irene_of_Athens a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Irene_of_Athens> ;
+	foaf:name "Irene of Athens" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/irene.htm> .
+
+dbpedia:Nikephoros_I a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nikephoros_I> ;
+	foaf:name "Nikephoros I" .
+
+dbpedia:Staurakios a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Staurakios> ;
+	foaf:name "Staurakios" .
+
+dbpedia:Michael_I_Rangabe a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_I_Rangabe> ;
+	foaf:name "Michael I Rangabe" .
+
+dbpedia:Leo_V_the_Armenian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Leo_V_the_Armenian> ;
+	foaf:name "Leo V" .
+
+dbpedia:Michael_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_II> ;
+	foaf:name "Michael II" .
+
+<http://dbpedia.org/resource/Theophilos_(emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theophilos_(emperor)> ;
+	foaf:name "Theophilos" .
+
+dbpedia:Michael_III a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_III> ;
+	foaf:name "Michael III" .
+
+dbpedia:Basil_I_the_Macedonian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Basil_I_the_Macedonian> ;
+	foaf:name "Basil I" .
+
+dbpedia:Leo_VI_the_Wise a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Leo_VI_the_Wise> ;
+	foaf:name "Leo VI" .
+
+<http://dbpedia.org/resource/Alexander_(Byzantine_emperor)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexander_(Byzantine_emperor)> ;
+	foaf:name "Alexander III" .
+
+dbpedia:Constantine_VII a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_VII> ;
+	foaf:name "Constantine VII" .
+
+dbpedia:Romanos_I_Lekapenos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Romanos_I_Lekapenos> ;
+	foaf:name "Romanos I" .
+
+dbpedia:Romanos_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Romanos_II> ;
+	foaf:name "Romanos II" .
+
+dbpedia:Nikephoros_II_Phokas a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nikephoros_II_Phokas> ;
+	foaf:name "Nikephoros II" .
+
+dbpedia:John_I_Tzimiskes a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_I_Tzimiskes> ;
+	foaf:name "John I" .
+
+dbpedia:Basil_II a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Basil_II> ;
+	foaf:name "Basil II" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/basilii.htm> .
+
+dbpedia:Constantine_VIII a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_VIII> ;
+	foaf:name "Constantine VIII" .
+
+<http://dbpedia.org/resource/Zoe_(empress)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Zoe_(empress)> ;
+	foaf:name "Zoe" , "Zoe Porphyrogenita" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/zoep.htm> .
+
+dbpedia:Romanos_III_Argyros a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Romanos_III_Argyros> ;
+	foaf:name "Romanos III" .
+
+dbpedia:Michael_IV_the_Paphlagonian a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_IV_the_Paphlagonian> ;
+	foaf:name "Michael IV" .
+
+dbpedia:Michael_V a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_V> ;
+	foaf:name "Michael V" .
+
+<http://dbpedia.org/resource/Theodora_(11th_century)> a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theodora_(11th_century)> ;
+	foaf:name "Theodora" .
+
+dbpedia:Constantine_IX_Monomachos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_IX_Monomachos> ;
+	foaf:name "Constantine IX" .
+
+dbpedia:Michael_VI_Stratiotikos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_VI_Stratiotikos> ;
+	foaf:name "Michael VI" .
+
+dbpedia:Isaac_I_Komnenos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Isaac_I_Komnenos> ;
+	foaf:name "Isaac I Komnenos" .
+
+dbpedia:Constantine_X_Doukas a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_X_Doukas> ;
+	foaf:name "Constantine X Doukas" .
+
+dbpedia:Michael_VII_Doukas a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_VII_Doukas> ;
+	foaf:name "Michael VII Doukas" .
+
+dbpedia:Romanos_IV_Diogenes a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Romanos_IV_Diogenes> ;
+	foaf:name "Romanos IV (Doukas)" .
+
+dbpedia:Nikephoros_III_Botaneiates a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Nikephoros_III_Botaneiates> ;
+	foaf:name "Nikephoros III (Botaneiates)" .
+
+dbpedia:Alexios_I_Komnenos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexios_I_Komnenos> ;
+	foaf:name "Alexios I Komnenos" .
+
+dbpedia:John_II_Komnenos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_II_Komnenos> ;
+	foaf:name "John II Komnenos" , "John II Comnenus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/johncomn.htm> .
+
+dbpedia:Manuel_I_Komnenos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Manuel_I_Komnenos> ;
+	foaf:name "Manuel I Komnenos" , "Manuel I Comnenus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/mannycom.htm> .
+
+dbpedia:Alexios_II_Komnenos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexios_II_Komnenos> ;
+	foaf:name "Alexios II Komnenos" , "Alexius II Comnenus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/alexiicom.htm> .
+
+dbpedia:Andronikos_I_Komnenos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andronikos_I_Komnenos> ;
+	foaf:name "Andronikos I Komnenos" , "Andronicus I Comnenus" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/andycomn.htm> .
+
+dbpedia:Isaac_II_Angelos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Isaac_II_Angelos> ;
+	foaf:name "Isaac II" .
+
+dbpedia:Alexios_III_Angelos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexios_III_Angelos> ;
+	foaf:name "Alexios III" .
+
+dbpedia:Alexios_IV_Angelos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexios_IV_Angelos> ;
+	foaf:name "Alexios IV" .
+
+dbpedia:Alexios_V_Doukas a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexios_V_Doukas> ;
+	foaf:name "Alexios V" .
+
+dbpedia:Constantine_Laskaris a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_Laskaris> ;
+	foaf:name "Contantine (XI)" .
+
+dbpedia:Theodore_I_Laskaris a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theodore_I_Laskaris> ;
+	foaf:name "Theodore I" .
+
+dbpedia:John_III_Doukas_Vatatzes a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_III_Doukas_Vatatzes> ;
+	foaf:name "John III" .
+
+dbpedia:Theodore_II_Laskaris a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Theodore_II_Laskaris> ;
+	foaf:name "Theodore II" .
+
+dbpedia:John_IV_Laskaris a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_IV_Laskaris> ;
+	foaf:name "John IV" .
+
+dbpedia:Michael_VIII_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_VIII_Palaiologos> ;
+	foaf:name "Michael VIII" .
+
+dbpedia:Andronikos_II_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andronikos_II_Palaiologos> ;
+	foaf:name "Andronikos II" .
+
+dbpedia:Michael_IX_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Michael_IX_Palaiologos> ;
+	foaf:name "Michael IX" .
+
+dbpedia:Andronikos_III_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andronikos_III_Palaiologos> ;
+	foaf:name "Andronikos III" .
+
+dbpedia:John_V_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_V_Palaiologos> ;
+	foaf:name "John V" .
+
+dbpedia:John_VI_Kantakouzenos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_VI_Kantakouzenos> ;
+	foaf:name "John VI" .
+
+dbpedia:Matthew_Kantakouzenos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Matthew_Kantakouzenos> ;
+	foaf:name "Matthew" .
+
+dbpedia:Andronikos_IV_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andronikos_IV_Palaiologos> ;
+	foaf:name "Andronikos IV" .
+
+dbpedia:John_VII_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_VII_Palaiologos> ;
+	foaf:name "John VII" .
+
+dbpedia:Manuel_II_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Manuel_II_Palaiologos> ;
+	foaf:name "Manuel II" , "Manuel II Palaiologos" ;
+	foaf:isPrimaryTopicOf <http://www.roman-emperors.org/manuel2.htm> .
+
+dbpedia:Andronikos_V_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Andronikos_V_Palaiologos> ;
+	foaf:name "Andronikos V" .
+
+dbpedia:John_VIII_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/John_VIII_Palaiologos> ;
+	foaf:name "John VIII" .
+
+dbpedia:Constantine_XI_Palaiologos a foaf:Person , dbpedia:Roman_emperor ;
+	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Constantine_XI_Palaiologos> ;
+	foaf:name "Constantine XI" .
