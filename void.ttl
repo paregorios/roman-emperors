@@ -8,7 +8,7 @@
 @prefix wv: <http://vocab.org/waiver/terms/norms> .        
 @prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
 
-<> a void:DatasetDescription;
+<http://www.paregorios.org/resources/roman-emperors/void> a void:DatasetDescription;
     dcterms:title "A VoID Description of the Roman Emperors Dataset" ;
     dcterms:creator <http://www.paregorios.org/me> ;
     foaf:primaryTopic :RomanEmperors ;
@@ -54,6 +54,7 @@
     void:vocabulary <http://purl.org/ontology/bibo/> ;
     void:vocabulary <http://dbpedia.org/resource/> ;
     void:vocabulary <http://www.w3.org/2002/07/owl#> ;
+    .
 
 # Other entities
 
