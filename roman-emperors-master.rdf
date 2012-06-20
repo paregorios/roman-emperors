@@ -1,0 +1,4226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:bibo="http://purl.org/ontology/bibo/"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Augustus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/18013086"/>
+	<foaf:name>Augustus</foaf:name>
+	<foaf:name>Gaius Julius Caesar Octavianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Augustus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Augustus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Augustus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/auggie.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Augustus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/auggie.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tiberius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/89600176"/>
+	<foaf:name>Tiberius</foaf:name>
+	<foaf:name>Tiberius Claudius Nero</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Tiberius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tiberius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Tiberius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/tiberius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tiberius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/tiberius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Caligula">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/59052351"/>
+	<foaf:name>Caligula</foaf:name>
+	<foaf:name>Gaius Caesar Augustus Germanicus</foaf:name>
+	<foaf:name>Gaius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Caligula">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Caligula">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Caligula"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/gaius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Caligula">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/gaius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Claudius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/87172361"/>
+	<foaf:name>Claudius</foaf:name>
+	<foaf:name>Ti. Claudius Nero Germanicus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Claudius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Claudius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Claudius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/claudius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Claudius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/claudius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nero">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/84036175"/>
+	<foaf:name>Nero</foaf:name>
+	<foaf:name>Nero Claudius Caesar Augustus Germanicus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Nero">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nero">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Nero"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/nero.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nero">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/nero.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Galba">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/27034761"/>
+	<foaf:name>Galba</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Galba">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Galba">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Galba"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/galba.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Galba">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/galba.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Otho">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/84036319"/>
+	<foaf:name>Otho</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Otho">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Otho">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Otho"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/otho.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Otho">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/otho.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Vitellius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/16012563"/>
+	<foaf:name>Vitellius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Vitellius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Vitellius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Vitellius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/vitell.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Vitellius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/vitell.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Vespasian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/96539514"/>
+	<foaf:name>Vespasian</foaf:name>
+	<foaf:name>Titus Flavius Vespasianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Vespasian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Vespasian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Vespasian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/vespasia.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Vespasian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/vespasia.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Titus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/83217593"/>
+	<foaf:name>Titus</foaf:name>
+	<foaf:name>Titus Flavius Vespasianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Titus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Titus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Titus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/titus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Titus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/titus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Domitian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/96284078"/>
+	<foaf:name>Domitian</foaf:name>
+	<foaf:name>Titus Flavius Domitianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Domitian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Domitian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Domitian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/domitian.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Domitian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/domitian.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nerva">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/69725573"/>
+	<foaf:name>Nerva</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Nerva">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nerva">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Nerva"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/nerva.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nerva">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/nerva.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Trajan">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/88067472"/>
+	<foaf:name>Trajan</foaf:name>
+	<foaf:name>Marcus Ulpius Traianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Trajan">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Trajan">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Trajan"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/trajan.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Trajan">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/trajan.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Hadrian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/82440741"/>
+	<foaf:name>Hadrian</foaf:name>
+	<foaf:name>Publius Aelius Hadrianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Hadrian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Hadrian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Hadrian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/hadrian.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Hadrian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/hadrian.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Antoninus_Pius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/62833890"/>
+	<foaf:name>Antoninus Pius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Antoninus_Pius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Antoninus_Pius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Antoninus_Pius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/tonypis.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Antoninus_Pius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/tonypis.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Aurelius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/102895066"/>
+	<foaf:name>Marcus Aurelius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Marcus_Aurelius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Aurelius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Marcus_Aurelius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/marcaur.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Aurelius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/marcaur.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Lucius_Verus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/42631348"/>
+	<foaf:name>Lucius Verus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Lucius_Verus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Lucius_Verus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Lucius_Verus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/lverus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Lucius_Verus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/lverus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Avidius_Cassius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/50622155"/>
+	<foaf:name>Avidius Cassius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Avidius_Cassius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Avidius_Cassius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Avidius_Cassius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Commodus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/23502412"/>
+	<foaf:name>Commodus</foaf:name>
+	<foaf:name>Marcus Aurelius Commodus Antoninus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Commodus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Commodus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Commodus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/commod.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Commodus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/commod.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pertinax">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/74649434"/>
+	<foaf:name>Pertinax</foaf:name>
+	<foaf:name>Publius Helvius Pertinax</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Pertinax">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pertinax">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Pertinax"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/pertinax.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pertinax">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/pertinax.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Didius_Julianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/121896833"/>
+	<foaf:name>Didius Julianus</foaf:name>
+	<foaf:name>Marcus Didius Severus Julianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Didius_Julianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Didius_Julianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Didius_Julianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/didjul.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Didius_Julianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/didjul.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Septimius_Severus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/36952961"/>
+	<foaf:name>Septimius Severus</foaf:name>
+	<foaf:name>Lucius Septimius Severus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Septimius_Severus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Septimius_Severus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Septimius_Severus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/sepsev.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Septimius_Severus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/sepsev.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pescennius_Niger">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/40174483"/>
+	<foaf:name>Pescennius Niger</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Pescennius_Niger">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pescennius_Niger">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Pescennius_Niger"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Clodius_Albinus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/60152178"/>
+	<foaf:name>Clodius Albinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Clodius_Albinus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Clodius_Albinus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Clodius_Albinus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Caracalla">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/88672215"/>
+	<foaf:name>Caracalla</foaf:name>
+	<foaf:name>Lucius Septimius Bassianus</foaf:name>
+	<foaf:name> Marcus Aurelius Antoninus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Caracalla">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Caracalla">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Caracalla"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/caracala.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Caracalla">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/caracala.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Publius_Septimius_Geta">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/77699459"/>
+	<foaf:name>Geta</foaf:name>
+	<foaf:name>Publius Septimius Geta</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Publius_Septimius_Geta">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Publius_Septimius_Geta">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Publius_Septimius_Geta"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/geta.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Publius_Septimius_Geta">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/geta.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Macrinus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/89202499"/>
+	<foaf:name>Macrinus</foaf:name>
+	<foaf:name>Marcus Opellius Macrinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Macrinus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Macrinus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Macrinus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/macrinus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Macrinus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/macrinus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Diadumenian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/89203309"/>
+	<foaf:name>Diadumenian</foaf:name>
+	<foaf:name>Diadumenianius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Diadumenian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Diadumenian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Diadumenian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/diadumen.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Diadumenian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/diadumen.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Elagabalus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/24583475"/>
+	<foaf:name>Elagabalus</foaf:name>
+	<foaf:name>Marcus Aurelius Antoninus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Elagabalus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Elagabalus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Elagabalus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/elagabal.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Elagabalus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/elagabal.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_Severus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/50018342"/>
+	<foaf:name>Alexander Severus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Alexander_Severus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_Severus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Alexander_Severus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/alexsev.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_Severus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/alexsev.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximinus_Thrax">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/72703271"/>
+	<foaf:name>Maximinus Thrax</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Maximinus_Thrax">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximinus_Thrax">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Maximinus_Thrax"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/maxthrax.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximinus_Thrax">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/maxthrax.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_I">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/3274737"/>
+	<foaf:name>Gordian I</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gordian_I">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Gordian_I"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/gordo1.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/gordo1.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/47565555"/>
+	<foaf:name>Gordian II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gordian_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Gordian_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pupienus_and_Balbinus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/89202531"/>
+	<foaf:name>Pupienus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Pupienus_and_Balbinus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pupienus_and_Balbinus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Pupienus_and_Balbinus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_III">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/89202520"/>
+	<foaf:name>Gordian III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gordian_III">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_III">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Gordian_III"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/gordo3.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_III">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/gordo3.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Sabinianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Sabinianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Sabinianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Sabinianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Sabinianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Philip_the_Arab">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/67260910"/>
+	<foaf:name>Philip the Arab</foaf:name>
+	<foaf:name>Marcus Julius Philippus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Philip_the_Arab">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Philip_the_Arab">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Philip_the_Arab"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/philarab.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Philip_the_Arab">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/philarab.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pacatianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Pacatianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Pacatianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Pacatianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Pacatianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Jotapianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Jotapianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Jotapianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Jotapianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Jotapianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Silbannacus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Silbannacus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Silbannacus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Silbannacus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Silbannacus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Decius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/10649322"/>
+	<foaf:name>Decius</foaf:name>
+	<foaf:name>Trajan Decius</foaf:name>
+	<foaf:name> Gaius Messius Quintus Decius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Decius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Decius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Decius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/decius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Decius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/decius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gaius_Julius_Priscus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Priscus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gaius_Julius_Priscus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gaius_Julius_Priscus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Gaius_Julius_Priscus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Licinianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Licinianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Licinianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Licinianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Licinianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Herennius_Etruscus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Herennius Etruscus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Herennius_Etruscus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Herennius_Etruscus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Herennius_Etruscus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Hostilian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Hostilian</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Hostilian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Hostilian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Hostilian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Trebonianus_Gallus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Gallus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Trebonianus_Gallus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Trebonianus_Gallus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Trebonianus_Gallus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Volusianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Volusianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Volusianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Volusianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Volusianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Aemilianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Aemilian</foaf:name>
+	<foaf:name>Marcus Aemilius Aemilianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Aemilianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Aemilianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Aemilianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/aemaem.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Aemilianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/aemaem.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valerian_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/89202605"/>
+	<foaf:name>Valerian</foaf:name>
+	<foaf:name>P. Licinius Valerianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Valerian_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valerian_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Valerian_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/gallval.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valerian_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/gallval.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gallienus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/10637212"/>
+	<foaf:name>Gallienus</foaf:name>
+	<foaf:name>P. Licinius Egnatius Gallienus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gallienus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gallienus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Gallienus"/>
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/gallval.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Saloninus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Saloninus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Saloninus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Saloninus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Saloninus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Ingenuus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Ingenuus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Ingenuus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Ingenuus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Ingenuus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Regalianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Regalianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Regalianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Regalianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Regalianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Macrianus_Major">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Macrianus Major</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Macrianus_Major">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Macrianus_Major">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Macrianus_Major"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Macrianus_Minor">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Macrianus Minor</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Macrianus_Minor">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Macrianus_Minor">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Macrianus_Minor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Quietus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Quietus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Quietus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Quietus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Quietus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Mussius_Aemilianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Mussius Aemilianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Mussius_Aemilianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Mussius_Aemilianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Mussius_Aemilianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Aureolus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Aureolus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Aureolus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Aureolus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Aureolus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Claudius_Gothicus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/27874193"/>
+	<foaf:name>Claudius Gothicus</foaf:name>
+	<foaf:name>M. Aurelius Claudius</foaf:name>
+	<foaf:name> Claudius II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Claudius_Gothicus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Claudius_Gothicus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Claudius_Gothicus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/claudgot.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Claudius_Gothicus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/claudgot.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Quintillus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Quintillus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Quintillus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Quintillus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Quintillus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Aurelian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/77109448"/>
+	<foaf:name>Aurelian</foaf:name>
+	<foaf:name>Lucius Domitius Aurelianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Aurelian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Aurelian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Aurelian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/aurelian.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Aurelian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/aurelian.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Septimius_(Roman_emperor_usurper)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Septimius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Septimius_(Roman_emperor_usurper)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Septimius_(Roman_emperor_usurper)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Septimius_(Roman_emperor_usurper)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Claudius_Tacitus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/20744377"/>
+	<foaf:name>Tacitus</foaf:name>
+	<foaf:name>Marcus Claudius Tacitus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Marcus_Claudius_Tacitus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Claudius_Tacitus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Marcus_Claudius_Tacitus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/tacitus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Claudius_Tacitus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/tacitus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Florianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Florianus</foaf:name>
+	<foaf:name>Florian</foaf:name>
+	<foaf:name> Marcus Annius Florianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Florianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Florianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Florianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/florian.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Florianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/florian.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Aurelius_Probus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/72190445"/>
+	<foaf:name>Probus</foaf:name>
+	<foaf:name>M. Aurelius Probus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Marcus_Aurelius_Probus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Aurelius_Probus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Marcus_Aurelius_Probus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/probus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Aurelius_Probus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/probus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julius_Saturninus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Julius Saturninus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Julius_Saturninus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julius_Saturninus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Julius_Saturninus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Proculus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Proculus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Proculus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Proculus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Proculus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Bonosus_(usurper)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Bonosus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Bonosus_(usurper)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Bonosus_(usurper)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Bonosus_(usurper)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Carus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Carus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Carus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Carus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Carus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/carus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Carus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/carus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Carinus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Carinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Carinus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Carinus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Carinus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/carinus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Carinus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/carinus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Numerian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Numerian</foaf:name>
+	<foaf:name>Numerianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Numerian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Numerian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Numerian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/numerian.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Numerian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/numerian.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Postumus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Postumus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Postumus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Postumus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Postumus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Laelianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Laelianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Laelianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Laelianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Laelianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Aurelius_Marius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Marius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Marcus_Aurelius_Marius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Aurelius_Marius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Marcus_Aurelius_Marius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Victorinus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Victorinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Victorinus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Victorinus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Victorinus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Domitianus_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Domitianus II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Domitianus_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Domitianus_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Domitianus_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tetricus_I">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Tetricus I</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Tetricus_I">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tetricus_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Tetricus_I"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Carausius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Carausius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Carausius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Carausius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Carausius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Allectus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Allectus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Allectus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Allectus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Allectus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Diocletian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/70259756"/>
+	<foaf:name>Diocletian</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Diocletian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Diocletian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Diocletian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/dioclet.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Diocletian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/dioclet.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/50478873"/>
+	<foaf:name>Maximian</foaf:name>
+	<foaf:name>Maximianus Herculius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Maximian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Maximian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/maxherc.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/maxherc.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantius_Chlorus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/23572704"/>
+	<foaf:name>Constantius Chlorus</foaf:name>
+	<foaf:name>Constantius I Chlorus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantius_Chlorus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantius_Chlorus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantius_Chlorus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/chlorus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantius_Chlorus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/chlorus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Galerius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/66372731"/>
+	<foaf:name>Galerius</foaf:name>
+	<foaf:name>Caius Galerius Valerius Maximianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Galerius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Galerius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Galerius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/galerius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Galerius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/galerius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Flavius_Valerius_Severus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/89764900"/>
+	<foaf:name>Severus II</foaf:name>
+	<foaf:name>Flavius Valerius Severus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Flavius_Valerius_Severus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Flavius_Valerius_Severus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Flavius_Valerius_Severus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/severus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Flavius_Valerius_Severus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/severus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maxentius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/3920874"/>
+	<foaf:name>Maxentius</foaf:name>
+	<foaf:name>Marcus Aurelius Valerius Maxentius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Maxentius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maxentius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Maxentius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/maxentiu.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maxentius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/maxentiu.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_the_Great">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/97746098"/>
+	<foaf:name>Constantine I</foaf:name>
+	<foaf:name>Flavius Valerius Constantinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_the_Great">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_the_Great">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_the_Great"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/conniei.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_the_Great">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/conniei.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Domitius_Alexander">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Domitius Alexander</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Domitius_Alexander">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Domitius_Alexander">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Domitius_Alexander"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Licinius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/66856266"/>
+	<foaf:name>Licinius</foaf:name>
+	<foaf:name>Valerius Licinianus Licinius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Licinius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Licinius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Licinius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/licinius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Licinius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/licinius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximinus_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/69721940"/>
+	<foaf:name>Maximinus Daia</foaf:name>
+	<foaf:name>Caius Valerius Galerius Maximinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Maximinus_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximinus_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Maximinus_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/daia.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximinus_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/daia.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valerius_Valens">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Valerius Valens</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Valerius_Valens">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valerius_Valens">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Valerius_Valens"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Sextus_Martinianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Sextus Martinianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Sextus_Martinianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Sextus_Martinianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Sextus_Martinianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_II_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/82697127"/>
+	<foaf:name>Constantine II</foaf:name>
+	<foaf:name>Flavius Claudius Constantinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_II_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_II_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_II_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/conii.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_II_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/conii.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantius_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/35247811"/>
+	<foaf:name>Constantius II</foaf:name>
+	<foaf:name>Flavius Julius Constantius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantius_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantius_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantius_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/constaii.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantius_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/constaii.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constans">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/197970721"/>
+	<foaf:name>Constans I</foaf:name>
+	<foaf:name>Flavius Julius Constans</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constans">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constans">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constans"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/consi.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constans">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/consi.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Magnentius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Magnentius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Magnentius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Magnentius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Magnentius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Vetranio">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Vetranio</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Vetranio">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Vetranio">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Vetranio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nepotianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Nepotianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Nepotianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nepotianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Nepotianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julian_the_Apostate">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/57406701"/>
+	<foaf:name>Julian</foaf:name>
+	<foaf:name>Julian The Apostate</foaf:name>
+	<foaf:name> Flavius Claudius Julianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Julian_the_Apostate">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julian_the_Apostate">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Julian_the_Apostate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/julian.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julian_the_Apostate">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/julian.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Jovian_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/12693872"/>
+	<foaf:name>Jovian</foaf:name>
+	<foaf:name>Flavius Jovianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Jovian_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Jovian_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Jovian_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/jovian.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Jovian_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/jovian.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_I">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/76544789"/>
+	<foaf:name>Valentinian I</foaf:name>
+	<foaf:name>Flavius Valentinianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Valentinian_I">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Valentinian_I"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/vali.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/vali.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valens">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/64806218"/>
+	<foaf:name>Valens</foaf:name>
+	<foaf:name>Flavius Valens</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Valens">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valens">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Valens"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/valens.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valens">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/valens.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Procopius_(usurper)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Procopius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Procopius_(usurper)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Procopius_(usurper)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Procopius_(usurper)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gratian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/57409191"/>
+	<foaf:name>Gratian</foaf:name>
+	<foaf:name>Flavius Gratianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gratian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gratian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Gratian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/gratian.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gratian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/gratian.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/32800218"/>
+	<foaf:name>Valentinian II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Valentinian_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Valentinian_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/valenii.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/valenii.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Magnus_Maximus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Magnus Maximus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Magnus_Maximus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Magnus_Maximus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Magnus_Maximus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Flavius_Victor">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Flavius Victor</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Flavius_Victor">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Flavius_Victor">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Flavius_Victor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Eugenius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Eugenius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Eugenius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Eugenius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Eugenius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodosius_I">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/31978444"/>
+	<foaf:name>Theodosius I</foaf:name>
+	<foaf:name>Flavius Theodosius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Theodosius_I">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodosius_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Theodosius_I"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/theo1.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodosius_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/theo1.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Arcadius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/5728388"/>
+	<foaf:name>Arcadius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Arcadius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Arcadius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Arcadius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/arcadius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Arcadius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/arcadius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Honorius_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/398923"/>
+	<foaf:name>Honorius</foaf:name>
+	<foaf:name>Flavius Honorius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Honorius_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Honorius_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Honorius_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/honorius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Honorius_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/honorius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_III_(usurper)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_III_(usurper)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_III_(usurper)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_III_(usurper)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constans_II_(usurper)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constans_II_(usurper)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constans_II_(usurper)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constans_II_(usurper)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Priscus_Attalus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Priscus Attalus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Priscus_Attalus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Priscus_Attalus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Priscus_Attalus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximus_of_Hispania">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Maximus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Maximus_of_Hispania">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maximus_of_Hispania">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Maximus_of_Hispania"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Jovinus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Jovinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Jovinus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Jovinus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Jovinus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Sebastianus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Sebastianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Sebastianus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Sebastianus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Sebastianus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodosius_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/46929243"/>
+	<foaf:name>Theodosius II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Theodosius_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodosius_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Theodosius_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/theo2.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodosius_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/theo2.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantius_III">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantius III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantius_III">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantius_III">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantius_III"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Joannes">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Joannes</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Joannes">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Joannes">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Joannes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_III">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/56825259"/>
+	<foaf:name>Valentinian III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Valentinian_III">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_III">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Valentinian_III"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/valenIII.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_III">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/valenIII.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Marcian</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Marcian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Marcian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/marcian.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Marcian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/marcian.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Petronius_Maximus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/122232697"/>
+	<foaf:name>Petronius Maximus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Petronius_Maximus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Petronius_Maximus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Petronius_Maximus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/petmax.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Petronius_Maximus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/petmax.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Avitus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/89202786"/>
+	<foaf:name>Avitus</foaf:name>
+	<foaf:name>Eparchius Avitus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Avitus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Avitus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Avitus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/avitus.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Avitus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/avitus.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Majorian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/121585248"/>
+	<foaf:name>Majorian</foaf:name>
+	<foaf:name>Julius Valerius Maiorianus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Majorian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Majorian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Majorian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/major.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Majorian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/major.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Libius_Severus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/1214340"/>
+	<foaf:name>Libius Severus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Libius_Severus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Libius_Severus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Libius_Severus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/libius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Libius_Severus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/libius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Anthemius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<owl:sameAs rdf:resource="http://viaf.org/viaf/121663544"/>
+	<foaf:name>Anthemius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Anthemius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Anthemius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Anthemius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/anthemiu.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Anthemius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/anthemiu.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Olybrius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Olybrius</foaf:name>
+	<foaf:name>Ancius Olybrius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Olybrius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Olybrius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Olybrius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/olybrius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Olybrius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/olybrius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Glycerius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Glycerius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Glycerius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Glycerius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Glycerius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/glyceriu.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Glycerius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/glyceriu.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julius_Nepos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Julius Nepos</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Julius_Nepos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julius_Nepos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Julius_Nepos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/nepos.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julius_Nepos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/nepos.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romulus_Augustus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Romulus Augustus</foaf:name>
+	<foaf:name>Romulus Augustulus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Romulus_Augustus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romulus_Augustus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Romulus_Augustus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/auggiero.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romulus_Augustus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/auggiero.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_I_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Leo I</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Leo_I_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_I_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Leo_I_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_II_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Leo II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Leo_II_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_II_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Leo_II_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/leo2.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_II_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/leo2.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Zeno_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Zeno</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Zeno_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Zeno_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Zeno_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/zeno.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Zeno_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/zeno.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Basiliscus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Basiliscus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Basiliscus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Basiliscus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Basiliscus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leontius_(usurper)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Leontius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Leontius_(usurper)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leontius_(usurper)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Leontius_(usurper)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Anastasius_I_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Anastasius I</foaf:name>
+	<foaf:name>Anastasius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Anastasius_I_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Anastasius_I_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Anastasius_I_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/anastasi.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Anastasius_I_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/anastasi.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Longinus_(consul_486)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Longinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Longinus_(consul_486)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Longinus_(consul_486)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Longinus_(consul_486)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Areobindus_Dagalaiphus_Areobindus">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Areobindus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Areobindus_Dagalaiphus_Areobindus">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Areobindus_Dagalaiphus_Areobindus">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Areobindus_Dagalaiphus_Areobindus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justin_I">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Justin I</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Justin_I">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justin_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Justin_I"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/justin.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justin_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/justin.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theocritus_(comes_domesticorum)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Theocritus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Theocritus_(comes_domesticorum)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theocritus_(comes_domesticorum)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Theocritus_(comes_domesticorum)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justinian_I">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Justinian I</foaf:name>
+	<foaf:name>Justinian</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Justinian_I">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justinian_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Justinian_I"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/justinia.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justinian_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/justinia.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julianus_ben_Sabar">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Julianus ben Sabar</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Julianus_ben_Sabar">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Julianus_ben_Sabar">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Julianus_ben_Sabar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Hypatius_(consul_500)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Hypatius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Hypatius_(consul_500)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Hypatius_(consul_500)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Hypatius_(consul_500)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Stotzas">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Stotzas</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Stotzas">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Stotzas">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Stotzas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_Cottistis">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John Cottistis</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Cottistis">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_Cottistis">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_Cottistis"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justin_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Justin II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Justin_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justin_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Justin_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/justinii.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justin_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/justinii.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tiberius_II_Constantine">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Tiberius II Constantine</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Tiberius_II_Constantine">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tiberius_II_Constantine">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Tiberius_II_Constantine"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/ticonii.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Tiberius_II_Constantine">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/ticonii.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maurice_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Maurice</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Maurice_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maurice_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Maurice_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/mauricius.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maurice_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/mauricius.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Phocas">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Phocas</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Phocas">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Phocas">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Phocas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/phocas.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Phocas">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/phocas.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Heraclius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Heraclius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Heraclius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Heraclius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Heraclius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/heraclis.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Heraclius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/heraclis.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Comentiolus_(brother_of_Phocas)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Comentiolus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Comentiolus_(brother_of_Phocas)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Comentiolus_(brother_of_Phocas)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Comentiolus_(brother_of_Phocas)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_of_Conza">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John of Conza</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_of_Conza">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_of_Conza">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_of_Conza"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Eleutherius_(exarch)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Eleutherius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Eleutherius_(exarch)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Eleutherius_(exarch)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Eleutherius_(exarch)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_Athalarichos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John Athalarichos</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Athalarichos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_Athalarichos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_Athalarichos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_III_(Byzantine_emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_III_(Byzantine_emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_III_(Byzantine_emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_III_(Byzantine_emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Heraklonas">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Heraklonas</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Heraklonas">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Heraklonas">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Heraklonas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/heraclon.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Heraklonas">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/heraclon.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constans_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constans II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constans_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constans_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constans_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/Constan2.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constans_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/Constan2.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maurikios_Chartoularios">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Maurikios Chartoularios</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Maurikios_Chartoularios">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Maurikios_Chartoularios">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Maurikios_Chartoularios"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinus_(usurper)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Valentinus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Valentinus_(usurper)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Valentinus_(usurper)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Valentinus_(usurper)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gregory_the_Patrician">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Gregory</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Gregory_the_Patrician">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Gregory_the_Patrician">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Gregory_the_Patrician"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Olympius_(exarch)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Olympius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Olympius_(exarch)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Olympius_(exarch)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Olympius_(exarch)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodoros_Pasagnathes">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Theodoros Pasagnathes</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Theodoros_Pasagnathes">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodoros_Pasagnathes">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Theodoros_Pasagnathes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Saborios">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Saborios</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Saborios">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Saborios">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Saborios"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_IV">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine IV</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_IV">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_IV">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_IV"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/Constiv.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_IV">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/Constiv.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Mezezius">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Mezezius</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Mezezius">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Mezezius">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Mezezius"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justinian_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Justinian II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Justinian_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justinian_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Justinian_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/Just2.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Justinian_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/Just2.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leontios">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Leontios</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Leontios">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leontios">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Leontios"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/leonti2.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leontios">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/leonti2.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Philippikos_Bardanes">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Philippikos Bardanes</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Philippikos_Bardanes">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Philippikos_Bardanes">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Philippikos_Bardanes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Anastasios_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Anastasios II</foaf:name>
+	<foaf:name>Anastasius II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Anastasios_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Anastasios_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Anastasios_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/anastasii.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Anastasios_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/anastasii.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodosios_III">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Theodosios III</foaf:name>
+	<foaf:name>Theodosius III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Theodosios_III">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodosios_III">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Theodosios_III"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/theodiii.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodosios_III">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/theodiii.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_III_the_Isaurian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Leo III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Leo_III_the_Isaurian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_III_the_Isaurian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Leo_III_the_Isaurian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/leoiii.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_III_the_Isaurian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/leoiii.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_V">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine V</foaf:name>
+	<foaf:name>Constantine V Copronymus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_V">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_V">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_V"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/constanv.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_V">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/constanv.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Artabasdos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Artabasdos</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Artabasdos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Artabasdos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Artabasdos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_IV_the_Khazar">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Leo IV</foaf:name>
+	<foaf:name>Leo Iv</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Leo_IV_the_Khazar">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_IV_the_Khazar">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Leo_IV_the_Khazar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/leo4.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_IV_the_Khazar">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/leo4.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_VI">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine VI</foaf:name>
+	<foaf:name>Constantine Vi</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_VI">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_VI">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_VI"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/irene.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_VI">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/irene.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Irene_of_Athens">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Irene of Athens</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Irene_of_Athens">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Irene_of_Athens">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Irene_of_Athens"/>
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/irene.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nikephoros_I">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Nikephoros I</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Nikephoros_I">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nikephoros_I">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Nikephoros_I"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Staurakios">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Staurakios</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Staurakios">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Staurakios">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Staurakios"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_I_Rangabe">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Michael I Rangabe</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Michael_I_Rangabe">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_I_Rangabe">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Michael_I_Rangabe"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_V_the_Armenian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Leo V</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Leo_V_the_Armenian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_V_the_Armenian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Leo_V_the_Armenian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Michael II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Michael_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Michael_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theophilos_(emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Theophilos</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Theophilos_(emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theophilos_(emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Theophilos_(emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_III">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Michael III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Michael_III">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_III">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Michael_III"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Basil_I_the_Macedonian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Basil I</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Basil_I_the_Macedonian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Basil_I_the_Macedonian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Basil_I_the_Macedonian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_VI_the_Wise">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Leo VI</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Leo_VI_the_Wise">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Leo_VI_the_Wise">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Leo_VI_the_Wise"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_(Byzantine_emperor)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Alexander III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Alexander_(Byzantine_emperor)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_(Byzantine_emperor)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Alexander_(Byzantine_emperor)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_VII">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine VII</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_VII">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_VII">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_VII"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romanos_I_Lekapenos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Romanos I</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Romanos_I_Lekapenos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romanos_I_Lekapenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Romanos_I_Lekapenos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romanos_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Romanos II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Romanos_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romanos_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Romanos_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nikephoros_II_Phokas">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Nikephoros II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Nikephoros_II_Phokas">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nikephoros_II_Phokas">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Nikephoros_II_Phokas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_I_Tzimiskes">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John I</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_I_Tzimiskes">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_I_Tzimiskes">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_I_Tzimiskes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Basil_II">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Basil II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Basil_II">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Basil_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Basil_II"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/basilii.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Basil_II">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/basilii.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_VIII">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine VIII</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_VIII">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_VIII">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_VIII"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Zoe_(empress)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Zoe</foaf:name>
+	<foaf:name>Zoe Porphyrogenita</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Zoe_(empress)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Zoe_(empress)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Zoe_(empress)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/zoep.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Zoe_(empress)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/zoep.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romanos_III_Argyros">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Romanos III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Romanos_III_Argyros">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romanos_III_Argyros">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Romanos_III_Argyros"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_IV_the_Paphlagonian">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Michael IV</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Michael_IV_the_Paphlagonian">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_IV_the_Paphlagonian">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Michael_IV_the_Paphlagonian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_V">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Michael V</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Michael_V">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_V">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Michael_V"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodora_(11th_century)">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Theodora</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Theodora_(11th_century)">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodora_(11th_century)">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Theodora_(11th_century)"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_IX_Monomachos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine IX</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_IX_Monomachos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_IX_Monomachos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_IX_Monomachos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_VI_Stratiotikos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Michael VI</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Michael_VI_Stratiotikos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_VI_Stratiotikos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Michael_VI_Stratiotikos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Isaac_I_Komnenos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Isaac I Komnenos</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Isaac_I_Komnenos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Isaac_I_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Isaac_I_Komnenos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_X_Doukas">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine X Doukas</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_X_Doukas">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_X_Doukas">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_X_Doukas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_VII_Doukas">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Michael VII Doukas</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Michael_VII_Doukas">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_VII_Doukas">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Michael_VII_Doukas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romanos_IV_Diogenes">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Romanos IV (Doukas)</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Romanos_IV_Diogenes">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Romanos_IV_Diogenes">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Romanos_IV_Diogenes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nikephoros_III_Botaneiates">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Nikephoros III (Botaneiates)</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Nikephoros_III_Botaneiates">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Nikephoros_III_Botaneiates">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Nikephoros_III_Botaneiates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_I_Komnenos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Alexios I Komnenos</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Alexios_I_Komnenos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_I_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Alexios_I_Komnenos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_II_Komnenos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John II Komnenos</foaf:name>
+	<foaf:name>John II Comnenus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_II_Komnenos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_II_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_II_Komnenos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/johncomn.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_II_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/johncomn.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Manuel_I_Komnenos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Manuel I Komnenos</foaf:name>
+	<foaf:name>Manuel I Comnenus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Manuel_I_Komnenos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Manuel_I_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Manuel_I_Komnenos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/mannycom.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Manuel_I_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/mannycom.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_II_Komnenos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Alexios II Komnenos</foaf:name>
+	<foaf:name>Alexius II Comnenus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Alexios_II_Komnenos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_II_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Alexios_II_Komnenos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/alexiicom.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_II_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/alexiicom.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_I_Komnenos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Andronikos I Komnenos</foaf:name>
+	<foaf:name>Andronicus I Comnenus</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Andronikos_I_Komnenos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_I_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Andronikos_I_Komnenos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/andycomn.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_I_Komnenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/andycomn.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Isaac_II_Angelos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Isaac II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Isaac_II_Angelos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Isaac_II_Angelos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Isaac_II_Angelos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_III_Angelos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Alexios III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Alexios_III_Angelos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_III_Angelos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Alexios_III_Angelos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_IV_Angelos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Alexios IV</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Alexios_IV_Angelos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_IV_Angelos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Alexios_IV_Angelos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_V_Doukas">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Alexios V</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Alexios_V_Doukas">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Alexios_V_Doukas">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Alexios_V_Doukas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_Laskaris">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Contantine (XI)</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_Laskaris">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_Laskaris">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_Laskaris"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodore_I_Laskaris">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Theodore I</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Theodore_I_Laskaris">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodore_I_Laskaris">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Theodore_I_Laskaris"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_III_Doukas_Vatatzes">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_III_Doukas_Vatatzes">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_III_Doukas_Vatatzes">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_III_Doukas_Vatatzes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodore_II_Laskaris">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Theodore II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Theodore_II_Laskaris">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Theodore_II_Laskaris">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Theodore_II_Laskaris"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_IV_Laskaris">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John IV</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_IV_Laskaris">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_IV_Laskaris">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_IV_Laskaris"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_VIII_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Michael VIII</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Michael_VIII_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_VIII_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Michael_VIII_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_II_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Andronikos II</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Andronikos_II_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_II_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Andronikos_II_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_IX_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Michael IX</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Michael_IX_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Michael_IX_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Michael_IX_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_III_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Andronikos III</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Andronikos_III_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_III_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Andronikos_III_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_V_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John V</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_V_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_V_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_V_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_VI_Kantakouzenos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John VI</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_VI_Kantakouzenos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_VI_Kantakouzenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_VI_Kantakouzenos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Matthew_Kantakouzenos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Matthew</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Matthew_Kantakouzenos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Matthew_Kantakouzenos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Matthew_Kantakouzenos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_IV_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Andronikos IV</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Andronikos_IV_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_IV_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Andronikos_IV_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_VII_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John VII</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_VII_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_VII_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_VII_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Manuel_II_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Manuel II</foaf:name>
+	<foaf:name>Manuel II Palaiologos</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Manuel_II_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Manuel_II_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Manuel_II_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.roman-emperors.org/manuel2.htm">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Manuel_II_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/manuel2.htm"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_V_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Andronikos V</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Andronikos_V_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Andronikos_V_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Andronikos_V_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_VIII_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>John VIII</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_VIII_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/John_VIII_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/John_VIII_Palaiologos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_XI_Palaiologos">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+	<foaf:name>Constantine XI</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Constantine_XI_Palaiologos">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_XI_Palaiologos">
+	<foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Constantine_XI_Palaiologos"/>
+</rdf:Description>
+
+</rdf:RDF>
