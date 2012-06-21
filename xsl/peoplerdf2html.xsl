@@ -10,13 +10,15 @@
     xmlns:relationship="http://purl.org/vocab/relationship/"
     xmlns:void="http://rdfs.org/ns/void#"
     xmlns:dcterms="http://purl.org/dc/terms/"
-    exclude-result-prefixes="xs bio dc foaf owl rdf rdfs relationship void dcterms"
+    exclude-result-prefixes="dcterms void"
+    
     version="2.0">
     
     <xsl:param name="where">pkg</xsl:param>
     <xsl:param name="docbase">http://www.paregorios.org/resources/roman-emperors/</xsl:param>
     <xsl:param name="cssbase"><xsl:value-of select="$docbase"/>css/</xsl:param>
     <xsl:output method="xhtml" indent="yes" name="html" omit-xml-declaration="no"/>
+    <xsl:output method="xml" indent="yes" name="xml"  />
     
     <xsl:template match="/">
         <xsl:apply-templates/>
@@ -54,6 +56,7 @@
                                 <xsl:sort select="foaf:name[2]"/>
                                 <xsl:with-param name="vtitle" select="$vtitle"/>
                                 <xsl:with-param name="vpage" select="$vpage"/>
+                                <xsl:with-param name="vdset" select="$vdset"/>
                             </xsl:apply-templates>
                         </ul>
                     </div>
@@ -65,6 +68,7 @@
     <xsl:template match="rdf:Description[rdf:type/@rdf:resource='http://xmlns.com/foaf/0.1/Person']">
         <xsl:param name="vtitle"/>
         <xsl:param name="vpage"/>
+        <xsl:param name="vdset"/>
         
         <xsl:message>trying to handle <xsl:value-of select="@rdf:about"/></xsl:message>
         
@@ -106,6 +110,17 @@
             <xsl:with-param name="vpage" select="$vpage"/>
             <xsl:with-param name="vtitle" select="$vtitle"/>
         </xsl:call-template>
+        
+        <!-- create the target rdf xml file for this person doc -->
+        <xsl:variable name="rdffilename">
+            <xsl:value-of select="$where"/>/<xsl:value-of select="$filename"/><xsl:text>/index.rdf</xsl:text>
+        </xsl:variable>
+        <xsl:call-template name="rdfpersondoc">
+            <xsl:with-param name="filename" select="$rdffilename"/>
+            <xsl:with-param name="rawname" select="$filename"/>
+            <xsl:with-param name="vdset" select="$vdset"/>
+        </xsl:call-template>
+        
         
     </xsl:template>
     
@@ -302,21 +317,22 @@
         
     </xsl:template>
     
+    
     <xsl:template name="htmlpersondoc">
         <xsl:param name="filename"/>
         <xsl:param name="rawname"/>
         <xsl:param name="vtitle"/>
         <xsl:param name="vpage"/>
+        
+        <xsl:message>    writing <xsl:value-of select="$filename"/></xsl:message>
+        
         <xsl:result-document href="{$filename}" format="html">
             <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html></xsl:text>
             <html>
                 <xsl:variable name="uri" select="@rdf:about"/>
                 <head>
                     <title>
-                        <xsl:choose>
-                            <xsl:when test="rdfs:label"><xsl:value-of select="normalize-space(rdfs:label[1])"/></xsl:when>
-                            <xsl:otherwise><xsl:value-of select="normalize-space(foaf:name[1])"/></xsl:otherwise>
-                        </xsl:choose>
+                        <xsl:call-template name="getdoctitle"/>
                     </title>
                     <xsl:call-template name="cssandscripts"/>                        
                     <link rel="foaf:primaryTopic" href="{$uri}"/>
@@ -327,14 +343,7 @@
                 <body>
                     <div class="persondoc">
                         <h1>
-                            <xsl:choose>
-                                <xsl:when test="rdfs:label">
-                                    <xsl:value-of select="normalize-space(rdfs:label[1])"/>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:value-of select="normalize-space(foaf:name[1])"/>
-                                </xsl:otherwise>
-                            </xsl:choose>
+                            <xsl:call-template name="getdoctitle"/>
                         </h1>
                         <p>URI for this document: <a href="{$docbase}{$rawname}"><xsl:value-of select="$docbase"/><xsl:value-of select="$rawname"/></a></p>
                         <p>Primary URI for the resource described by this document: <a href="{$uri}"><xsl:value-of select="$uri"/></a></p>
@@ -373,4 +382,146 @@
             </html>
         </xsl:result-document>
     </xsl:template>
+    
+    <xsl:template name="rdfpersondoc">
+        <xsl:param name="filename"/>
+        <xsl:param name="rawname"/>
+        
+        <xsl:param name="vdset"/>
+        
+        <xsl:message>    writing <xsl:value-of select="$filename"/></xsl:message>
+        
+        <xsl:result-document href="{$filename}" format="xml">
+            <xsl:element name="rdf:RDF" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#" inherit-namespaces="no">
+                <xsl:copy-of select="namespace::*"/>
+                <xsl:namespace name="dcterms">http://purl.org/dc/terms/</xsl:namespace>
+                <!-- write triples *about* the person based on the master file -->
+                <xsl:apply-templates select="." mode="rdfout"/>
+                <!-- write triples about this document based on the void document -->
+                <xsl:element name="rdf:Description">
+                    <xsl:copy-of select="namespace::*"/>
+                    <xsl:attribute name="rdf:about">
+                        <xsl:value-of select="$docbase"/><xsl:value-of select="$rawname"/>
+                    </xsl:attribute>
+                    <xsl:call-template name="wtrip">
+                        <xsl:with-param name="verb">foaf:primaryTopic</xsl:with-param>
+                        <xsl:with-param name="objuri" select="./@rdf:about"/>
+                    </xsl:call-template>
+                    <xsl:call-template name="wtrip">
+                        <xsl:with-param name="verb">rdf:type</xsl:with-param>
+                        <xsl:with-param name="objuri">http://xmlns.com/foaf/0.1/Document</xsl:with-param>
+                    </xsl:call-template>
+                    <xsl:call-template name="wtrip">
+                        <xsl:with-param name="verb">rdfs:label</xsl:with-param>
+                        <xsl:with-param name="objtext">
+                            <xsl:call-template name="getdoctitle"/>
+                        </xsl:with-param>
+                    </xsl:call-template>
+                    <xsl:apply-templates select="$vdset/dcterms:creator" mode="rdfout"/>
+                    <xsl:apply-templates select="$vdset/dcterms:contributor" mode="rdfout"/>
+                    <xsl:apply-templates select="$vdset/dcterms:publisher" mode="rdfout"/>
+                    <xsl:apply-templates select="$vdset/dcterms:created" mode="rdfout"/>
+                    <xsl:apply-templates select="$vdset/dcterms:modified" mode="rdfout"/>
+                    <xsl:apply-templates select="$vdset/dcterms:license" mode="rdfout"/>
+                    <xsl:call-template name="wtrip">
+                        <xsl:with-param name="verb">dcterms:isPartOf</xsl:with-param>
+                        <xsl:with-param name="objuri" select="$vdset/foaf:homepage/@rdf:resource"/>
+                    </xsl:call-template>
+                </xsl:element>
+            </xsl:element>
+        </xsl:result-document>
+    </xsl:template>
+    
+    <xsl:template name="getdoctitle">
+        <xsl:text>About the Roman Emperor </xsl:text>
+        <xsl:choose>
+            <xsl:when test="rdfs:label"><xsl:value-of select="normalize-space(rdfs:label[1])"/></xsl:when>
+            <xsl:otherwise><xsl:value-of select="normalize-space(foaf:name[1])"/></xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template name="wtrip">
+        <xsl:param name="verb"/>
+        <xsl:param name="objuri"/>
+        <xsl:param name="objtext"/>
+        <xsl:param name="nspaz"/>
+        <xsl:param name="nspazuri"/>
+        <xsl:element name="{$verb}">
+            <xsl:choose>
+                <xsl:when test="$nspaz">
+                    <xsl:namespace name="{$nspaz}" select="$nspazuri"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:copy-of select="namespace::*"/>
+                </xsl:otherwise>
+            </xsl:choose>
+            
+            <xsl:if test="$objuri">
+                <xsl:attribute name="rdf:resource" select="$objuri"/>
+            </xsl:if>
+            <xsl:if test="$objtext">
+                <xsl:value-of select="$objtext"/>
+            </xsl:if>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="rdf:Description" mode="rdfout">
+        <xsl:variable name="uri" select="@rdf:about"/>
+        <!-- gather up and write all the triples about this person -->        
+        <xsl:element name="rdf:Description">
+            <xsl:copy-of select="namespace::*"/>
+            <xsl:attribute name="rdf:about" select="$uri"/>
+            <xsl:apply-templates select="//rdf:Description[@rdf:about=$uri]/*" mode="rdfout">
+                <xsl:sort select="substring-before(name(), ':')"/>
+                <xsl:sort select="local-name(.)"/>
+                <xsl:sort select="@rdf:resource"/>
+                <xsl:sort select="lower-case(normalize-space(.))"/>
+            </xsl:apply-templates>
+        </xsl:element>
+        <!-- write related triples -->
+        <xsl:for-each select="//rdf:Description[@rdf:about=$uri]">
+            <xsl:for-each select="*[@rdf:resource]">
+                <xsl:variable name="relateduri" select="@rdf:resource"/>
+                <xsl:for-each select="//rdf:Description[@rdf:about=$relateduri][1]">
+                    <xsl:element name="rdf:Description">
+                        <xsl:copy-of select="namespace::*"/>
+                        <xsl:attribute name="rdf:about" select="$relateduri"/>
+                        <xsl:apply-templates select="//rdf:Description[@rdf:about=$relateduri]/*" mode="rdfout">
+                            <xsl:sort select="substring-before(name(), ':')"/>
+                            <xsl:sort select="local-name(.)"/>
+                            <xsl:sort select="@rdf:resource"/>
+                            <xsl:sort select="lower-case(normalize-space(.))"/>
+                        </xsl:apply-templates>
+                    </xsl:element>
+                </xsl:for-each>
+                </xsl:for-each>
+            
+        </xsl:for-each>
+        
+    </xsl:template>
+    
+    <xsl:template match="rdf:type[@rdf:resource='http://purl.org/ontology/bibo/Webpage']" mode="rdfout">
+        <xsl:copy-of select="." copy-namespaces="no"/>
+        <xsl:element name="rdf:type">
+            <xsl:attribute name="rdf:resource">http://xmlns.com/foaf/0.1/Document</xsl:attribute>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="*" mode="rdfout">
+        <xsl:copy-of select="." copy-namespaces="no"  />
+        <!-- <xsl:copy inherit-namespaces="no" copy-namespaces="no">
+            <xsl:copy-of select="@*"/>
+            <xsl:apply-templates select="* | text()" mode="rdfout"/>
+        </xsl:copy> -->
+        <!-- <xsl:variable name="prefix" select="substring-before(name(), ':')"/>
+        <xsl:element name="{$prefix}:{local-name()}" inherit-namespaces="no">
+            <xsl:namespace name="{$prefix}" select="namespace-uri()"/>
+            <xsl:copy-of select="@*"/>
+            
+            <xsl:apply-templates select="text() | *" mode="rdfout" />
+        </xsl:element> -->
+    </xsl:template>
+    
+    
+    
 </xsl:stylesheet>
