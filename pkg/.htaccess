@@ -2,8 +2,17 @@ AddDefaultCharset UTF-8
 DefaultLanguage en-US
 AddType 'application/rdf+xml; charset=UTF-8' .rdf
 AddType 'text/turtle; charset=UTF-8' .ttl
+DirectorySlash Off
 RewriteEngine On
-# remove trailing slash
-RewriteRule ^(.*)/$ /$1 [L,R=301]
-RewriteRule ^(.*[^/])$ $1/index.html [L]
-RewriteRule ^(.*)/(rdf|ttl)$ $1/index.$2 [L]
+RewriteCond  %{DOCUMENT_ROOT}/$1.html  -f
+RewriteRule  ^(.*?)(\.html)?/$         /$1       [R=301,L]
+
+RewriteCond  %{DOCUMENT_ROOT}/$1       -d
+RewriteRule  ^(.*?[^/])$               /$1/      [R=301,L]
+
+RewriteCond  %{DOCUMENT_ROOT}/$1.html  -f
+RewriteRule  ^(.*)$                    /$1.html  [L,NC]
+
+
+
+
