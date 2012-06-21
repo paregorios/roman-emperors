@@ -10,12 +10,12 @@
         </dcterms:creator>
         <foaf:primaryTopic>
             <void:Dataset rdf:about="#RomanEmperors">
-                <foaf:homepage rdf:resource="https://github.com/paregorios/roman-emperors/" />
-                <dcterms:title>Roman Emperors</dcterms:title>
+                <dcterms:title>About Roman Emperors</dcterms:title>
                 <dcterms:description>Linked Data about Roman Emperors</dcterms:description>
+                <foaf:homepage rdf:resource="http://www.paregorios.org/resources/roman-emperors/" />
                 <dcterms:creator rdf:resource="http://www.paregorios.org/me" />
                 <dcterms:contributor>
-                    <foaf:Person rdf:about="#roko">
+                    <foaf:Person>
                         <foaf:name>Roko Rumora</foaf:name>
                     </foaf:Person>
                 </dcterms:contributor>
@@ -24,14 +24,15 @@
                 <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-19</dcterms:created>
                 <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-20</dcterms:modified>
                 <dcterms:subject rdf:resource="http://dbpedia.org/resource/Roman_emperor" />
-                <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle" />
-                <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" />
+                <!-- <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle" /> -->
+                <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" /> 
                 <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.csv" />
-                <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.ttl" />
+                <!-- <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.ttl" />
                 <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.rdf" />
-                <void:uriSpace>http://dbpedia.org/resource/</void:uriSpace>
-                <void:uriRegexPattern>^http://dbpedia\.org/resource/(.+)$</void:uriRegexPattern>
-                <void:exampleResource rdf:resource="http://dbpedia.org/resource/Augustus" />
+                -->
+                <void:uriSpace>http://www.paregorios.org/resources/roman-emperors/</void:uriSpace>
+                <void:uriRegexPattern>^http://www\.paregorios\.org/resources/roman-emperors/about-(.+)$</void:uriRegexPattern>
+                <void:exampleResource rdf:resource="http://www.paregorios.org/resources/roman-emperors/about-augustus" />
                 <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/" />
                 <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema#" />
                 <void:vocabulary rdf:resource="http://purl.org/ontology/bibo/" />
