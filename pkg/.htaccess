@@ -1,0 +1,6 @@
+AddDefaultCharset UTF-8
+DefaultLanguage en-US
+AddType 'application/rdf+xml; charset=UTF-8' .rdf
+AddType 'text/turtle; charset=UTF-8' .ttl
+RewriteEngine On
+RewriteRule ^(.*)/(rdf|ttl)$ $1.$2
