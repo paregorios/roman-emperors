@@ -3,4 +3,7 @@ DefaultLanguage en-US
 AddType 'application/rdf+xml; charset=UTF-8' .rdf
 AddType 'text/turtle; charset=UTF-8' .ttl
 RewriteEngine On
-RewriteRule ^(.*)/(rdf|ttl)$ $1/index.$2
+# remove trailing slash
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+RewriteRule ^(.*[^/])$ $1/index.html [L]
+RewriteRule ^(.*)/(rdf|ttl)$ $1/index.$2 [L]
