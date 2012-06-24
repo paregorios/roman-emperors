@@ -1,0 +1,88 @@
+body {
+    text-align: left;
+    font: 13px/1.231 arial,helvetica,clean,sans-serif;
+
+}
+
+body > div > * {
+    margin-left: 2em;
+}
+
+body > div.persondoc > *, #footer * {
+    margin-left: 0;
+}
+
+body > div > h2 {
+    text-indent: -2em;
+}
+
+body > div.persondoc h2 {
+    text-indent: 0;
+    font: 13px/1.231 arial,helvetica,clean,sans-serif;
+}
+
+li {
+    list-style: circle inside;
+}
+
+ul.opened li {
+    margin-bottom: 1em;
+}
+
+ul {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+#datasetinfo ul {
+    margin: 0.5em 4em;
+}
+
+.persondoc ul {
+    margin: 0.5em 2em !important;
+}
+
+#datasetinfo p.listnote {
+    margin-left: 4em;
+    font-style: italic;
+}
+
+p, h3, .persondoc h2 {
+    margin: 0.5em 0;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.navaid:before {
+    content: "[ "
+}
+
+.navaid:after {
+    content: " ]"
+}
+
+#footer {
+    margin: 2em 0;
+    padding: 2em;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+.title {
+    font-style: italic;
+}
+
+.description {
+    font-size: 90%;
+}
+
+.atitle:before {
+    content: "“"
+}
+
+.atitle:after {
+    content: "”"
+}
