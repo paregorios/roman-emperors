@@ -2,14 +2,32 @@ AddDefaultCharset UTF-8
 DefaultLanguage en-US
 AddType 'application/rdf+xml; charset=UTF-8' .rdf
 AddType 'text/turtle; charset=UTF-8' .ttl
-DirectorySlash Off
 RewriteEngine On
-RewriteRule ^(.*)/roman-emperors/$ /$1/roman-emperors [R=301,L]
-RewriteRule ^(.*)/roman-emperors$ roman-emperors/index.html [L]
-RewriteRule ^(.*)/roman-emperors/about-(.+)/$ /$1/roman-emperors/about-$2 [R=301,L]
-RewriteRule ^(.*)/roman-emperors/about-([^/]+)$ roman-emperors/html/about-$2.html [L]
-RewriteRule ^(.*)/roman-emperors/about-([^/]+)/html$ roman-emperors/html/about-$2.html [L]
-RewriteRule ^(.*)/roman-emperors/about-([^/]+)/rdf$ roman-emperors/rdf/about-$2.rdf [L]
 
+# if the sought filename exists and is not a directory, and it ends with a slash, redirect to the slashless one
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\/$ http://www.paregorios.org/resources/roman-emperors/$1 [R=301,L]
+
+# if the user agent wants html, and there's a .html file matching the request, silently serve it up at the clean uri
+RewriteCond %{HTTP_ACCEPT} text/html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*(?<!\/html))$ $1.html [L]
+
+# if the explicit url for html is requested, silently serve it up
+RewriteRule ^(.*)\/html$ $1.html [L]
+
+# if the user agent wants rdf, and there's an .rdf file matching the request, silently serve it up
+RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
+RewriteCond %{REQUEST_FILENAME}.rdf -f
+RewriteRule ^(.*(?<!\/rdf))$ $1.rdf [L]
+
+# if the explicit url for rdf is requested, silently serve it up
+RewriteRule ^(.*)\/rdf$ $1.rdf [L]
+
+# default to html if there's no request header preference and neither of the explicit choice urls is given
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteCond %{REQUEST_FILENAME} !^.*\/html$
+RewriteCond %{REQUEST_FILENAME} !^.*\/rdf$
+RewriteRule ^(.*)$ $1.html [L]
 
 
