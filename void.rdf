@@ -16,20 +16,25 @@
                 <dcterms:creator rdf:resource="http://www.paregorios.org/me" />
                 <dcterms:contributor>
                     <foaf:Person>
+                        <foaf:name>Daniel Pett</foaf:name>
+                        <foaf:homepage rdf:resource="http://www.britishmuseum.org/about_us/departments/staff/portable_antiquities_treasure/daniel_pett.aspx"/>
+                    </foaf:Person>
+                </dcterms:contributor>
+                <dcterms:contributor>
+                    <foaf:Person>
                         <foaf:name>Roko Rumora</foaf:name>
                     </foaf:Person>
                 </dcterms:contributor>
                 <dcterms:publisher rdf:resource="http://www.paregorios.org/me" />
                 <dcterms:license rdf:resource="http://opendatacommons.org/licenses/pddl/" />
                 <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-19</dcterms:created>
-                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-20</dcterms:modified>
+                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-24</dcterms:modified>
                 <dcterms:subject rdf:resource="http://dbpedia.org/resource/Roman_emperor" />
                 <!-- <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle" /> -->
                 <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" /> 
                 <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.csv" />
-                <!-- <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.ttl" />
+                <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.ttl" />
                 <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.rdf" />
-                -->
                 <void:uriSpace>http://www.paregorios.org/resources/roman-emperors/</void:uriSpace>
                 <void:uriRegexPattern>^http://www\.paregorios\.org/resources/roman-emperors/about-(.+)$</void:uriRegexPattern>
                 <void:exampleResource rdf:resource="http://www.paregorios.org/resources/roman-emperors/about-augustus" />
@@ -38,6 +43,8 @@
                 <void:vocabulary rdf:resource="http://purl.org/ontology/bibo/" />
                 <void:vocabulary rdf:resource="http://dbpedia.org/resource/" />
                 <void:vocabulary rdf:resource="http://www.w3.org/2002/07/owl#" />
+                <void:vocabulary rdf:resource="http://nomisma.org/id/"/>
+                <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
             </void:Dataset>
         </foaf:primaryTopic>
     </void:DatasetDescription>
