@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:bio="http://vocab.org/bio/0.1/" 
+    xmlns:bibo="http://purl.org/ontology/bibo/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:foaf="http://xmlns.com/foaf/0.1/" 
     xmlns:owl="http://www.w3.org/2002/07/owl#" 
@@ -102,7 +103,7 @@
         
         <!-- create the target html page for this person doc -->
         <xsl:variable name="htmlfilename">
-            <xsl:value-of select="$where"/>/<xsl:value-of select="$filename"/><xsl:text>/index.html</xsl:text>
+            <xsl:value-of select="$where"/>/<xsl:value-of select="$filename"/><xsl:text>.html</xsl:text>
         </xsl:variable>
         <xsl:call-template name="htmlpersondoc">
             <xsl:with-param name="filename" select="$htmlfilename"/>
@@ -113,7 +114,7 @@
         
         <!-- create the target rdf xml file for this person doc -->
         <xsl:variable name="rdffilename">
-            <xsl:value-of select="$where"/>/<xsl:value-of select="$filename"/><xsl:text>/index.rdf</xsl:text>
+            <xsl:value-of select="$where"/>/<xsl:value-of select="$filename"/><xsl:text>.rdf</xsl:text>
         </xsl:variable>
         <xsl:call-template name="rdfpersondoc">
             <xsl:with-param name="filename" select="$rdffilename"/>
@@ -126,25 +127,20 @@
     
     <xsl:template match="foaf:isPrimaryTopicOf" mode="topic">
         <xsl:variable name="uri" select="@rdf:resource"/>
-        <li><a href="{$uri}"><xsl:value-of select="$uri"/></a>
-            
-                <xsl:for-each select="//rdf:Description[@rdf:about=$uri and rdf:type]">
-                    <xsl:if test="not(preceding-sibling::rdf:Description[@rdf:about=$uri and rdf:type])">
-                        <xsl:text> (</xsl:text>
-                    </xsl:if>
-                    <xsl:value-of select="lower-case(tokenize(rdf:type/@rdf:resource, '/')[last()])"/>
-                    <xsl:if test="following-sibling::rdf:Description[@rdf:about=$uri and rdf:type]">
-                        <xsl:text>, </xsl:text>
-                    </xsl:if>
-                    <xsl:if test="not(following-sibling::rdf:Description[@rdf:about=$uri and rdf:type])">
-                        <xsl:text>)</xsl:text>
-                    </xsl:if>
-                </xsl:for-each>
-        </li>
+        <xsl:variable name="rtitle" select="normalize-space(//rdf:Description[@rdf:about=$uri and dcterms:title][1]/dcterms:title[1])"/>
+        <xsl:variable name="rdesc" select="normalize-space(//rdf:Description[@rdf:about=$uri and dcterms:description][1]/dcterms:description[1])"/>
+        <xsl:variable name="parenturi" select="normalize-space(//rdf:Description[@rdf:about=$uri and dcterms:isPartOf][1]/dcterms:isPartOf/@rdf:resource)"/>
+        <xsl:variable name="parentstitle" select="normalize-space(//rdf:Description[@rdf:about=$parenturi and bibo:shortTitle][1]/bibo:shortTitle[1])"/>
+        <xsl:variable name="parentftitle" select="normalize-space(//rdf:Description[@rdf:about=$parenturi and dcterms:title][1]/dcterms:title[1])"/>
+        
+<!--        <xsl:variable name="desc" select="normalize-space($rdfdesc/dcterms:description)"/>
+        <xsl:variable name="parent" select="normalize-space($rdfdesc/dcterms:isPartOf/@rdf:resource)"/>
+        -->
+        <li><a class="atitle" href="{$uri}"><xsl:value-of select="$rtitle"/></a> in <span class="title" title="{$parentftitle}"><xsl:choose><xsl:when test="$parentstitle != ''"><xsl:value-of select="$parentstitle"/></xsl:when><xsl:otherwise><xsl:value-of select="$parentftitle"/></xsl:otherwise></xsl:choose></span><xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of><span class="description"><xsl:value-of select="$rdesc"/></span></li>
     </xsl:template>
     
     <xsl:template match="foaf:name">
-        <p>Name: <span class="name"><xsl:value-of select="normalize-space(.)"/></span></p>
+        <li class="name">“<xsl:value-of select="normalize-space(.)"/>”</li>
     </xsl:template>
     
     <xsl:template match="foaf:based_near">
@@ -195,8 +191,21 @@
     </xsl:template>
     
     <xsl:template match="rdf:type[@rdf:resource]">
-        <p>Type of resource: <a href="{@rdf:resource}"><xsl:value-of select="tokenize(@rdf:resource, '/')[last()]"/></a></p>
+        <xsl:variable name="term" select="tokenize(@rdf:resource, '/')[last()]"/>
+        <xsl:variable name="termspace" select="substring-before(@rdf:resource, $term)"/>
+        <xsl:variable name="voname">
+            <xsl:choose>
+                <xsl:when test="$termspace =  'http://xmlns.com/foaf/0.1/'">foaf</xsl:when>
+                <xsl:when test="$termspace = 'http://dbpedia.org/resource/'">dbpedia</xsl:when>
+                <xsl:when test="$termspace = 'http://nomisma.org/id/'">nomisma</xsl:when>
+                <xsl:otherwise><xsl:value-of select="substring-before(@rdf:resource, $term)"/></xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <li>“<xsl:value-of select="$term"/>” 
+            
+            ( <a href="{@rdf:resource}" title="definition of the term {$term} in the {$voname} vocabulary"><xsl:value-of select="$voname"/>:<xsl:value-of select="$term"/></a> ).</li>
     </xsl:template>
+    
     <xsl:template match="void:feature[not(preceding-sibling::void:feature)]">
         <h3>the following features are provided:</h3>
         <ul><xsl:for-each select="../void:feature">
@@ -302,7 +311,7 @@
     
     <xsl:template name="extras">
         <xsl:param name="uri"/>
-        <xsl:if test="//rdf:Description[@rdf:about=$uri and foaf:isPrimaryTopicOf[contains(@rdf:resource, 'en.wikipedia.org')]]">
+        <!-- <xsl:if test="//rdf:Description[@rdf:about=$uri and foaf:isPrimaryTopicOf[contains(@rdf:resource, 'en.wikipedia.org')]]">
             <div id="extras">
                 <h2>Extras:</h2>
                 <ul>
@@ -312,9 +321,9 @@
             </xsl:for-each>
                 </ul>
             </div>
-            
+         
         </xsl:if>
-        
+        -->
     </xsl:template>
     
     
@@ -336,30 +345,50 @@
                     </title>
                     <xsl:call-template name="cssandscripts"/>                        
                     <link rel="foaf:primaryTopic" href="{$uri}"/>
-                    <link rel="canonical" href="{$docbase}{$filename}"/>
-                    <link type="application/rdf+xml" rel="alternate" href="{$docbase}{$filename}/rdf"/>
-                    <link type="text/turtle" rel="alternate" href="{$docbase}{$filename}/ttl"/>
+                    <link rel="canonical" href="{$docbase}{$rawname}"/>
+                    <link type="application/rdf+xml" rel="alternate" href="{$docbase}{$rawname}/rdf"/>
+                    <!-- <link type="text/turtle" rel="alternate" href="{$docbase}{$rawname}/ttl"/> -->
                 </head>
                 <body>
                     <div class="persondoc">
                         <h1>
                             <xsl:call-template name="getdoctitle"/>
                         </h1>
-                        <p>URI for this document: <a href="{$docbase}{$rawname}"><xsl:value-of select="$docbase"/><xsl:value-of select="$rawname"/></a></p>
+                        <p><strong>Uniform Resource Identifier (URI)</strong> for this document: <a href="{$docbase}{$rawname}"><xsl:value-of select="$docbase"/><xsl:value-of select="$rawname"/></a></p>
                         <p>Primary URI for the resource described by this document: <a href="{$uri}"><xsl:value-of select="$uri"/></a></p>
-                        <xsl:if test="owl:sameAs">
-                            <h2>In addition to the primary URI, the following URIs also identify the resource described by this document:</h2>
+                        <xsl:if test="//rdf:Description[@rdf:about=$uri]/owl:sameAs">
+                            <h2>In addition to the primary URI, the following URIs also identify ( <a href="http://www.w3.org/TR/owl-ref/#sameAs-def" title="the definition of the term 'sameAs' in the OWL Web Ontology Language">owl:sameAs</a> ) the resource described by this document:</h2>
                             <ul>
-                                <xsl:for-each select="owl:sameAs">
-                                    <xsl:sort/>
+                                <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/owl:sameAs">
+                                    <xsl:sort select="@rdf:resource"/>
                                     <xsl:apply-templates select="." mode="sameify"/>
                                 </xsl:for-each>
                             </ul>
                         </xsl:if>
-                        <xsl:apply-templates/>
-                        <h2>The following resources provide additional information about the resource described by this document:</h2>
-                        <ul><xsl:for-each select="//rdf:Description[@rdf:about=$uri and foaf:isPrimaryTopicOf]">
-                            <xsl:apply-templates select="foaf:isPrimaryTopicOf" mode="topic"/>
+                        <xsl:if test="//rdf:Description[@rdf:about=$uri]/rdf:type">
+                            <h2>The following resource <strong>types</strong> (<a href="http://www.w3.org/TR/rdf-schema/#ch_type" title="definition of the term 'type' in the RDF Vocabulary Description Language">rdf:type</a> ) have been associated with this resource:</h2>
+                            <ul>
+                                <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/rdf:type">
+                                    <xsl:sort select="tokenize(@rdf:resource, '/')[last()]"/>
+                                    <xsl:sort select="@rdf:resource"/>
+                                    <xsl:apply-templates select="."/>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:if>
+                        <xsl:if test="//rdf:Description[@rdf:about=$uri]/foaf:name">
+                            <h2>The following <strong>names</strong> (<a href="http://xmlns.com/foaf/spec/#term_name" title="definition of the term 'name' in the Friend-of-a-Friend (FOAF) vocabulary">foaf:name</a> ) have been associated with this resource:</h2>
+                            <ul>
+                                <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/foaf:name">
+                                    <xsl:sort/>
+                                    <xsl:apply-templates select="."/>
+                                </xsl:for-each>
+                            </ul>
+                        </xsl:if>
+                        <!-- <xsl:apply-templates select="//rdf:Description[@rdf:about=$uri]/*"/> -->
+                        <h2>The following <strong>resources</strong> provide additional information about the resource described by this document ( <a href="http://xmlns.com/foaf/spec/#term_isPrimaryTopicOf" title="definition of the term 'isPrimaryTopicOf' in the FOAF Vocabulary">foaf:isPrimaryTopicOf</a> ):</h2>
+                        <ul class="opened"><xsl:for-each select="//rdf:Description[@rdf:about=$uri]/foaf:isPrimaryTopicOf">
+                            <xsl:sort select="//rdf:Description[@rdf:about=current()/@rdf:resource and dcterms:title][1]/dcterms:title[1]"/>
+                            <xsl:apply-templates select="." mode="topic"/>
                         </xsl:for-each></ul>
                         <xsl:if test="//foaf:knows[@rdf:resource=$uri]">
                             <p>This individual is known to the following:</p>
@@ -377,6 +406,8 @@
                     </div>
                     <div id="footer">
                         <p>This document is part of the <a href="{$vpage}"><xsl:value-of select="$vtitle"/></a> dataset.</p>
+                        <a href="{$docbase}{$rawname}/rdf" title="metadata about this resource in RDF format"><img border="0" src="http://www.w3.org/RDF/icons/rdf_metadata_button.32"
+                            alt="RDF Resource Description Framework Metadata Icon"/></a>
                     </div>
                 </body>
             </html>
@@ -499,14 +530,7 @@
         </xsl:for-each>
         
     </xsl:template>
-    
-    <xsl:template match="rdf:type[@rdf:resource='http://purl.org/ontology/bibo/Webpage']" mode="rdfout">
-        <xsl:copy-of select="." copy-namespaces="no"/>
-        <xsl:element name="rdf:type">
-            <xsl:attribute name="rdf:resource">http://xmlns.com/foaf/0.1/Document</xsl:attribute>
-        </xsl:element>
-    </xsl:template>
-    
+        
     <xsl:template match="*" mode="rdfout">
         <xsl:copy-of select="." copy-namespaces="no"  />
         <!-- <xsl:copy inherit-namespaces="no" copy-namespaces="no">
