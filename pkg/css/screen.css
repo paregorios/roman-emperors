@@ -1,9 +1,18 @@
 body {
     text-align: left;
     font: 13px/1.231 arial,helvetica,clean,sans-serif;
-
+    border: none;
+    border-left: 25px solid red;
+    padding: 0;
+    padding-left: 1em;
+    padding-top: 1em;
+    margin: 0;
 }
 
+h1 {
+    margin-top: 0;
+    padding-top: 0;
+}
 body > div > * {
     margin-left: 2em;
 }
