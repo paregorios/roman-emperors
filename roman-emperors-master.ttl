@@ -14,7 +14,8 @@ dbpedia:Aemilianus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aemilianus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/39>,
 		<http://www.roman-emperors.org/aemaem.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Aemilianus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Aemilianus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-0330>;
 	foaf:name "Aemilian",
 		"Marcus Aemilius Aemilianus".
 dbpedia:Alexander_(Byzantine_emperor) a dbpedia:Roman_emperor,
@@ -31,7 +32,8 @@ dbpedia:Alexander_Severus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Alexander_Severus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/36>,
 		<http://www.roman-emperors.org/alexsev.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Alexander_Severus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Alexander_Severus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1610>;
 	foaf:name "Alexander Severus".
 dbpedia:Alexios_I_Komnenos a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -145,7 +147,8 @@ dbpedia:Antoninus_Pius a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Antoninus_Pius>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/5>,
 		<http://www.roman-emperors.org/tonypis.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Antoninus_Pius>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Antoninus_Pius>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1513>;
 	foaf:name "Antoninus Pius".
 dbpedia:Arcadius a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -176,7 +179,8 @@ dbpedia:Augustus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Augustus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/1>,
 		<http://www.roman-emperors.org/auggie.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Augustus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Augustus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/i-0215>;
 	foaf:name "Augustus",
 		"Gaius Julius Caesar Octavianus".
 dbpedia:Aurelian a dbpedia:Roman_emperor,
@@ -186,7 +190,8 @@ dbpedia:Aurelian a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Aurelian>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/41>,
 		<http://www.roman-emperors.org/aurelian.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Aurelian>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Aurelian>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/d-0135>;
 	foaf:name "Aurelian",
 		"Lucius Domitius Aurelianus".
 dbpedia:Aureolus a dbpedia:Roman_emperor,
@@ -200,7 +205,8 @@ dbpedia:Avidius_Cassius a dbpedia:Roman_emperor,
 		foaf:Person;
 	= <http://viaf.org/viaf/50622155>;
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Avidius_Cassius>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Avidius_Cassius>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Avidius_Cassius>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1402>;
 	foaf:name "Avidius Cassius".
 dbpedia:Avitus a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -279,7 +285,8 @@ dbpedia:Carinus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Carinus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/44>,
 		<http://www.roman-emperors.org/carinus.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Carinus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Carinus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1473>;
 	foaf:name "Carinus".
 dbpedia:Carus a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -287,7 +294,8 @@ dbpedia:Carus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Carus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/45>,
 		<http://www.roman-emperors.org/carus.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Carus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Carus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1475>;
 	foaf:name "Carus".
 dbpedia:Claudius_Gothicus a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -296,7 +304,8 @@ dbpedia:Claudius_Gothicus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Claudius_Gothicus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/46>,
 		<http://www.roman-emperors.org/claudgot.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Claudius_Gothicus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Claudius_Gothicus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1626>;
 	foaf:name " Claudius II",
 		"Claudius Gothicus",
 		"M. Aurelius Claudius".
@@ -334,7 +343,8 @@ dbpedia:Commodus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Commodus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/23>,
 		<http://www.roman-emperors.org/commod.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Commodus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Commodus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1482>;
 	foaf:name "Commodus",
 		"Marcus Aurelius Commodus Antoninus".
 dbpedia:Constans_II_(usurper) a dbpedia:Roman_emperor,
@@ -520,7 +530,8 @@ dbpedia:Diocletian a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Diocletian>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/47>,
 		<http://www.roman-emperors.org/dioclet.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Diocletian>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Diocletian>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1627>;
 	foaf:name "Diocletian".
 dbpedia:Domitian a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -530,7 +541,9 @@ dbpedia:Domitian a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Domitian>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/9>,
 		<http://www.roman-emperors.org/domitian.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Domitian>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Domitian>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/d-0114>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/f-0259>;
 	foaf:name "Domitian",
 		"Titus Flavius Domitianus".
 dbpedia:Domitianus_II a dbpedia:Roman_emperor,
@@ -610,7 +623,8 @@ dbpedia:Galba a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Galba>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/6>,
 		<http://www.roman-emperors.org/galba.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Galba>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Galba>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir1/s-0723>;
 	foaf:name "Galba".
 dbpedia:Galerius a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -630,7 +644,8 @@ dbpedia:Gallienus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Gallienus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/76>,
 		<http://www.roman-emperors.org/gallval.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Gallienus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Gallienus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/l-0197>;
 	foaf:name "Gallienus",
 		"P. Licinius Egnatius Gallienus".
 dbpedia:Glycerius a dbpedia:Roman_emperor,
@@ -691,7 +706,8 @@ dbpedia:Hadrian a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Hadrian>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/4>,
 		<http://www.roman-emperors.org/hadrian.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Hadrian>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Hadrian>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-0184>;
 	foaf:name "Hadrian".
 dbpedia:Heraclius a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -1037,7 +1053,8 @@ dbpedia:Lucius_Verus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Lucius_Verus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/21>,
 		<http://www.roman-emperors.org/lverus.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Lucius_Verus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Lucius_Verus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/c-0606>;
 	foaf:name "Lucius Verus".
 dbpedia:Macrianus_Major a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -1050,7 +1067,8 @@ dbpedia:Macrianus_Minor a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
 		foaf:Person;
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Macrianus_Minor>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Macrianus_Minor>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Macrianus_Minor>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/f-0546>;
 	foaf:name "Macrianus Minor".
 dbpedia:Macrinus a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -1118,7 +1136,8 @@ dbpedia:Marcus_Aurelius_Marius a dbpedia:Roman_emperor,
 		foaf:Person;
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Marcus_Aurelius_Marius>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/78>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Marcus_Aurelius_Marius>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Marcus_Aurelius_Marius>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1555>;
 	foaf:name "Marius".
 dbpedia:Marcus_Aurelius_Probus a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -1127,7 +1146,8 @@ dbpedia:Marcus_Aurelius_Probus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Marcus_Aurelius_Probus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/60>,
 		<http://www.roman-emperors.org/probus.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Marcus_Aurelius_Probus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Marcus_Aurelius_Probus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1583>;
 	foaf:name "M. Aurelius Probus",
 		"Probus".
 dbpedia:Marcus_Aurelius a dbpedia:Roman_emperor,
@@ -1147,7 +1167,8 @@ dbpedia:Marcus_Claudius_Tacitus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Marcus_Claudius_Tacitus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/65>,
 		<http://www.roman-emperors.org/tacitus.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Marcus_Claudius_Tacitus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Marcus_Claudius_Tacitus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/c-1036>;
 	foaf:name "Marcus Claudius Tacitus",
 		"Tacitus".
 dbpedia:Matthew_Kantakouzenos a dbpedia:Roman_emperor,
@@ -1187,7 +1208,8 @@ dbpedia:Maximian a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Maximian>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/56>,
 		<http://www.roman-emperors.org/maxherc.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Maximian>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Maximian>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1628>;
 	foaf:name "Maximian",
 		"Maximianus Herculius".
 dbpedia:Maximinus_II a dbpedia:Roman_emperor,
@@ -1343,7 +1365,8 @@ dbpedia:Numerian a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Numerian>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/57>,
 		<http://www.roman-emperors.org/numerian.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Numerian>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Numerian>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1564>;
 	foaf:name "Numerian",
 		"Numerianus".
 dbpedia:Olybrius a dbpedia:Roman_emperor,
@@ -1386,7 +1409,8 @@ dbpedia:Pertinax a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Pertinax>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/24>,
 		<http://www.roman-emperors.org/pertinax.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Pertinax>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Pertinax>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/h-0073>;
 	foaf:name "Pertinax",
 		"Publius Helvius Pertinax".
 dbpedia:Pescennius_Niger a dbpedia:Roman_emperor,
@@ -1414,7 +1438,8 @@ dbpedia:Philip_the_Arab a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Philip_the_Arab>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/80>,
 		<http://www.roman-emperors.org/philarab.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Philip_the_Arab>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Philip_the_Arab>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/i-0462>;
 	foaf:name "Marcus Julius Philippus",
 		"Philip the Arab".
 dbpedia:Philippikos_Bardanes a dbpedia:Roman_emperor,
@@ -1437,7 +1462,8 @@ dbpedia:Postumus a dbpedia:Roman_emperor,
 	= <http://viaf.org/viaf/243990358>;
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Postumus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/59>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Postumus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Postumus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/c-0466>;
 	foaf:name "Postumus".
 dbpedia:Priscus_Attalus a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -1482,7 +1508,8 @@ dbpedia:Quietus a dbpedia:Roman_emperor,
 	= <http://viaf.org/viaf/25505871>;
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Quietus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/62>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Quietus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Quietus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/f-0547>;
 	foaf:name "Quietus".
 dbpedia:Quintillus a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -1490,7 +1517,8 @@ dbpedia:Quintillus a dbpedia:Roman_emperor,
 	= <http://viaf.org/viaf/232346397>;
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Quintillus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/63>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Quintillus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Quintillus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/a-1480>;
 	foaf:name "Quintillus".
 dbpedia:Regalianus a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -1574,7 +1602,8 @@ dbpedia:Septimius_Severus a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Septimius_Severus>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/27>,
 		<http://www.roman-emperors.org/sepsev.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Septimius_Severus>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Septimius_Severus>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir1/s-0346>;
 	foaf:name "Lucius Septimius Severus",
 		"Septimius Severus".
 dbpedia:Sextus_Martinianus a dbpedia:Roman_emperor,
@@ -1714,7 +1743,8 @@ dbpedia:Trajan a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Trajan>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/16>,
 		<http://www.roman-emperors.org/trajan.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Trajan>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Trajan>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir1/v-0575>;
 	foaf:name "Trajan".
 dbpedia:Trebonianus_Gallus a dbpedia:Roman_emperor,
 		nomisma:roman_emperor,
@@ -1774,7 +1804,8 @@ dbpedia:Valerian_(emperor) a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Valerian_(emperor)>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/71>,
 		<http://www.roman-emperors.org/gallval.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Valerian_(emperor)>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Valerian_(emperor)>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/l-0258>;
 	foaf:name "P. Licinius Valerianus",
 		"Valerian".
 dbpedia:Valerius_Valens a dbpedia:Roman_emperor,
@@ -1791,7 +1822,8 @@ dbpedia:Vespasian a dbpedia:Roman_emperor,
 	foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Vespasian>,
 		<http://finds.org.uk/romancoins/emperors/emperor/id/10>,
 		<http://www.roman-emperors.org/vespasia.htm>,
-		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Vespasian>;
+		<http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Vespasian>,
+		<http://www.paregorios.org/resources/roman-elites/works/pir2/f-0398>;
 	foaf:name "Titus Flavius Vespasianus",
 		"Vespasian".
 dbpedia:Vetranio a dbpedia:Roman_emperor,
