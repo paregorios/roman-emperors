@@ -372,7 +372,7 @@
                             </ul>
                         </xsl:if>
                         <xsl:if test="//rdf:Description[@rdf:about=$uri]/rdf:type">
-                            <h2>The following resource <strong>types</strong> (<a href="http://www.w3.org/TR/rdf-schema/#ch_type" title="definition of the term 'type' in the RDF Vocabulary Description Language">rdf:type</a> ) have been associated with this resource:</h2>
+                            <h2>The following resource <strong>types</strong> (<a href="http://www.w3.org/TR/rdf-schema/#ch_type" title="definition of the term 'type' in the RDF Vocabulary Description Language">rdf:type</a> ) have been associated with the resource:</h2>
                             <ul>
                                 <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/rdf:type">
                                     <xsl:sort select="tokenize(@rdf:resource, '/')[last()]"/>
@@ -382,7 +382,7 @@
                             </ul>
                         </xsl:if>
                         <xsl:if test="//rdf:Description[@rdf:about=$uri]/foaf:name">
-                            <h2>The following <strong>names</strong> (<a href="http://xmlns.com/foaf/spec/#term_name" title="definition of the term 'name' in the Friend-of-a-Friend (FOAF) vocabulary">foaf:name</a> ) have been associated with this resource:</h2>
+                            <h2>The following <strong>names</strong> (<a href="http://xmlns.com/foaf/spec/#term_name" title="definition of the term 'name' in the Friend-of-a-Friend (FOAF) vocabulary">foaf:name</a> ) have been associated with the resource:</h2>
                             <ul>
                                 <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/foaf:name">
                                     <xsl:sort/>
@@ -412,7 +412,7 @@
                     </div>
                     <div id="footer">
                         <p>This document is part of the <a href="{$vpage}"><xsl:value-of select="$vtitle"/></a> dataset.</p>
-                        <a href="{$docbase}{$rawname}/rdf" title="metadata about this resource in RDF format"><img border="0" src="http://www.w3.org/RDF/icons/rdf_metadata_button.32"
+                        <a href="{$docbase}{$rawname}.rdf" title="metadata about this resource in RDF format"><img border="0" src="http://www.w3.org/RDF/icons/rdf_metadata_button.32"
                             alt="RDF Resource Description Framework Metadata Icon"/></a>
                     </div>
                 </body>
