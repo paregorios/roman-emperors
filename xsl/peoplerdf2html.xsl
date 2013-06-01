@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:bio="http://vocab.org/bio/0.1/" 
     xmlns:bibo="http://purl.org/ontology/bibo/"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:foaf="http://xmlns.com/foaf/0.1/" 
     xmlns:owl="http://www.w3.org/2002/07/owl#" 
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -11,7 +9,7 @@
     xmlns:relationship="http://purl.org/vocab/relationship/"
     xmlns:void="http://rdfs.org/ns/void#"
     xmlns:dcterms="http://purl.org/dc/terms/"
-    exclude-result-prefixes="dcterms void"
+    exclude-result-prefixes="dcterms void xs relationship"
     
     version="2.0">
     
@@ -19,7 +17,7 @@
     <xsl:param name="docbase">http://www.paregorios.org/resources/roman-emperors/</xsl:param>
     <xsl:param name="cssbase"><xsl:value-of select="$docbase"/>css/</xsl:param>
     <xsl:output method="xhtml" indent="yes" name="html" omit-xml-declaration="no"/>
-    <xsl:output method="xml" indent="yes" name="xml"  />
+    <xsl:output method="xml" indent="yes" name="xml"  exclude-result-prefixes="xs relationship" />
     
     <xsl:template match="/">
         <xsl:apply-templates/>
@@ -156,9 +154,9 @@
             </p>
     </xsl:template>
     
-    <xsl:template match="dc:description">
+    <!-- <xsl:template match="dc:description">
         <p>Description: <span property="http://purl.org/dc/elements/1.1/description"><xsl:value-of select="normalize-space(.)"/></span></p>
-    </xsl:template>
+    </xsl:template> -->
     
     <xsl:template match="relationship:*">
         <xsl:variable name="term" select="local-name()"/>
@@ -198,6 +196,7 @@
                 <xsl:when test="$termspace =  'http://xmlns.com/foaf/0.1/'">foaf</xsl:when>
                 <xsl:when test="$termspace = 'http://dbpedia.org/resource/'">dbpedia</xsl:when>
                 <xsl:when test="$termspace = 'http://nomisma.org/id/'">nomisma</xsl:when>
+                <xsl:when test="$termspace = 'http://purl.org/ontology/bibo/'">bibo</xsl:when>
                 <xsl:otherwise><xsl:value-of select="substring-before(@rdf:resource, $term)"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -223,7 +222,7 @@
     
     <xsl:template match="void:vocabulary[not(preceding-sibling::void:vocabulary)]">
         <h3>the following vocabularies are used in this dataset:</h3>
-        <ul><xsl:for-each select="../void:feature">
+        <ul><xsl:for-each select="../void:vocabulary">
             <li><a href="{@rdf:resource}"><xsl:value-of select="@rdf:resource"/></a></li>
         </xsl:for-each></ul>
     </xsl:template>
@@ -285,7 +284,6 @@
     <xsl:template match="foaf:homepage[ancestor::foaf:Person]">
         <xsl:text>homepage: </xsl:text><a href="{@rdf:resource}"><xsl:value-of select="@rdf:resource"/></a><xsl:if test="following-sibling::foaf:*"><xsl:text>, </xsl:text></xsl:if>
     </xsl:template>
-    
     
     <xsl:template match="*"/>
     
@@ -533,6 +531,21 @@
         
     <xsl:template match="*" mode="rdfout">
         <xsl:copy-of select="." copy-namespaces="no"  />
+        <!-- add schema.org types -->
+        <xsl:if test="local-name()='type'">
+            <xsl:choose>
+                <xsl:when test="@rdf:resource='http://purl.org/ontology/bibo/Webpage'">
+                    <rdf:type rdf:resource="http://schema.org/WebPage">
+                        <xsl:copy-of select="namespace::*"/>
+                    </rdf:type>
+                </xsl:when>
+                <xsl:when test="@rdf:resource='http://xmlns.com/foaf/0.1/Person'">
+                    <rdf:type rdf:resource="http://schema.org/Person">
+                        <xsl:copy-of select="namespace::*"/>
+                    </rdf:type>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:if>
         <!-- <xsl:copy inherit-namespaces="no" copy-namespaces="no">
             <xsl:copy-of select="@*"/>
             <xsl:apply-templates select="* | text()" mode="rdfout"/>
