@@ -2,7 +2,7 @@ body {
     text-align: left;
     font: 13px/1.231 arial,helvetica,clean,sans-serif;
     border: none;
-    border-left: 25px solid red;
+    border-left: 25px solid #990024;  /* Tyrian purple, according to Wikipedia */
     padding: 0;
     padding-left: 1em;
     padding-top: 1em;
