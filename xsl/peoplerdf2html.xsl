@@ -330,6 +330,10 @@
         <xsl:param name="rawname"/>
         <xsl:param name="vtitle"/>
         <xsl:param name="vpage"/>
+        <xsl:variable name="canonical">
+            <xsl:value-of select="$docbase"/>
+            <xsl:value-of select="$rawname"/>
+        </xsl:variable>
         
         <xsl:message>    writing <xsl:value-of select="$filename"/></xsl:message>
         
@@ -343,8 +347,8 @@
                     </title>
                     <xsl:call-template name="cssandscripts"/>                        
                     <link rel="foaf:primaryTopic" href="{$uri}"/>
-                    <link rel="canonical" href="{$docbase}{$rawname}"/>
-                    <link type="application/rdf+xml" rel="alternate" href="{$docbase}{$rawname}.rdf"/>
+                    <link rel="canonical" href="{$canonical}"/>
+                    <link type="application/rdf+xml" rel="alternate" href="{$canonical}.rdf"/>
                     <!-- <link type="text/turtle" rel="alternate" href="{$docbase}{$rawname}/ttl"/> -->
                 </head>
                 <body>
@@ -354,6 +358,10 @@
                         </h1>
                         <p><strong>Uniform Resource Identifier (URI)</strong> for this document: <a href="{$docbase}{$rawname}"><xsl:value-of select="$docbase"/><xsl:value-of select="$rawname"/></a></p>
                         <p>Primary URI for the resource described by this document: <a href="{$uri}"><xsl:value-of select="$uri"/></a></p>
+                        <p>Alternate representation of the data presented here:</p>
+                        <ul>
+                            <li>RDF/XML: <a href="{$canonical}.rdf"><xsl:value-of select="$canonical"/>.rdf</a></li>
+                        </ul>
                         <xsl:if test="//rdf:Description[@rdf:about=$uri]/owl:sameAs">
                             <h2>In addition to the primary URI, the following URIs also identify ( <a href="http://www.w3.org/TR/owl-ref/#sameAs-def" title="the definition of the term 'sameAs' in the OWL Web Ontology Language">owl:sameAs</a> ) the resource described by this document:</h2>
                             <ul>
