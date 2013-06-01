@@ -344,7 +344,7 @@
                     <xsl:call-template name="cssandscripts"/>                        
                     <link rel="foaf:primaryTopic" href="{$uri}"/>
                     <link rel="canonical" href="{$docbase}{$rawname}"/>
-                    <link type="application/rdf+xml" rel="alternate" href="{$docbase}{$rawname}/rdf"/>
+                    <link type="application/rdf+xml" rel="alternate" href="{$docbase}{$rawname}.rdf"/>
                     <!-- <link type="text/turtle" rel="alternate" href="{$docbase}{$rawname}/ttl"/> -->
                 </head>
                 <body>
