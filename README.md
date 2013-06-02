@@ -5,6 +5,8 @@ Linked data about Roman emperors.
 
 This dataset uses the published dbpedia resource URIs for Roman Emperors (the persons themselves) as a starting point for making useful assertions about these individuals in the linked data space. The main goal is to align these URIs with any other key URIs (now or in the future) for the same persons and then to attribute these "same as" relationships with links to descriptive documents or other data that have not so far made it into the linked data graph (especially legacy web resources). Multiple names for the emperors are only incidental to the dataset; no attempt is being made to produce (in this dataset) a comprehensive set of alternate names.
 
+**roman-emperors-master.rdf is now the primary authorial source.** The TTL and CSV version are now derived from roman-emperors-master.rdf. I have accordingly renamed roman-emperors-master.ttl to roman-emperors-copy.ttl and roman-emperors-master.csv to roman-emperors-copy.csv. Changes to roman-emperors-copy.ttl or roman-emperors-copy.csv will not survive the next round of conversions from roman-emperors-master.rdf. I will no longer accept merge requests for roman-emperors-copy.ttl or roman-emperors-copy.csv.
+
 Status of the work
 -------------------
 
