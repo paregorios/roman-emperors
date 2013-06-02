@@ -15,7 +15,7 @@
     
     <xsl:param name="where">pkg</xsl:param>
     <xsl:param name="docbase">http://www.paregorios.org/resources/roman-emperors/</xsl:param>
-    <xsl:param name="cssbase"><xsl:value-of select="$docbase"/>css/</xsl:param>
+    <xsl:param name="cssbase">./css/</xsl:param>
     <xsl:output method="xhtml" indent="yes" name="html" omit-xml-declaration="no"/>
     <xsl:output method="xml" indent="yes" name="xml"  exclude-result-prefixes="xs relationship" />
     
