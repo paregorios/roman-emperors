@@ -43,6 +43,7 @@
 <rdf:Description rdf:about="http://www.roman-emperors.org/auggie.htm">
 	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+	<dcterms:title>Augustus</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://www.roman-emperors.org">
@@ -303,6 +304,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Nero, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Nero</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Nero">
@@ -359,6 +361,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Galba, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Galba</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Galba">
@@ -415,6 +418,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Otho, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Otho</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Otho">
@@ -471,6 +475,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Vitellius, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Vitellius</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Vitellius">
@@ -701,6 +706,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Nerva, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms>Nerva</dcterms>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Nerva">
@@ -757,6 +763,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Trajan, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Trajan</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Trajan">
@@ -813,6 +820,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Hadrian, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Hadrian</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Hadrian">
@@ -869,6 +877,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Antoninus Pius, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Antoninus Pius</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Antoninus_Pius">
@@ -925,6 +934,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Marcus Aurelius, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Marcus Aurelius</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Marcus_Aurelius">
@@ -981,6 +991,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Lucius Verus, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>L. Verus</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Lucius_Verus">
@@ -1677,6 +1688,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Alexander Severus, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Severus Alexander</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Alexander_Severus">
@@ -1732,6 +1744,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Maximinus Thrax, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Maximinus Thrax</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Maximinus_Thrax">
@@ -1787,6 +1800,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Gordian I, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Gordian I</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_I">
@@ -1918,6 +1932,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Gordian III, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Gordian III</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Gordian_III">
@@ -3400,6 +3415,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Carus, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Carus</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Carus">
@@ -3455,6 +3471,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Carinus, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Carinus</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Carinus">
@@ -3916,6 +3933,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Diocletian, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Diocletian</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Diocletian">
@@ -5149,6 +5167,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Valentinian II, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Valentinian II</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_II">
@@ -5390,6 +5409,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Arcadius, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Arcadius</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Arcadius">
@@ -5734,6 +5754,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Theodosius II, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Theodosius II</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Theodosius_II">
@@ -5875,6 +5896,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Valentinian III, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Valentinian III</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Valentinian_III">
@@ -5929,6 +5951,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Marcian, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Marcian (m. Pulcheria, gnddghtr Theod I)</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Marcian">
@@ -5984,6 +6007,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Petronius Maximus, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Petronius Maximus</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Petronius_Maximus">
@@ -6153,6 +6177,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Libius Severus, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Libius Severus</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Libius_Severus">
@@ -6196,6 +6221,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Anthemius, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Anthemius</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Anthemius">
@@ -6306,6 +6332,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Glycerius, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Glycerius</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Glycerius">
@@ -6360,6 +6387,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Julius Nepos, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Julius Nepos</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Julius_Nepos">
@@ -6513,6 +6541,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Leo II, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Leo II</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Leo_II_(emperor)">
@@ -6567,6 +6596,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Zeno, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Zeno</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Zeno_(emperor)">
@@ -6825,6 +6855,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Justin I, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Justin</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Justin_I">
@@ -7090,6 +7121,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Justin II, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Justin II</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Justin_II">
@@ -7144,6 +7176,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Tiberius II Constantine, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Tiberius II (I) Constantine</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Tiberius_II_Constantine">
@@ -7198,6 +7231,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Maurice, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Maurice</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Maurice_(emperor)">
@@ -7252,6 +7286,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Phocas, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Phocas</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Phocas">
@@ -7306,6 +7341,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Heraclius, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Heraclius</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Heraclius">
@@ -7515,6 +7551,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Heraklonas, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Heraclonas</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Heraklonas">
@@ -7569,6 +7606,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Constans II, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Constans II</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Constans_II">
@@ -7797,6 +7835,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Constantine IV, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Constantine IV</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Constantine_IV">
@@ -7870,6 +7909,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Justinian II, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Justinian II</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Justinian_II">
@@ -7912,6 +7952,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Leontios, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Leontius</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Leontios">
@@ -8085,6 +8126,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Leo III, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Leo III</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Leo_III_the_Isaurian">
@@ -8299,6 +8341,7 @@
 
 <rdf:Description rdf:about="http://www.roman-emperors.org/irene.htm">
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Irene of Athens, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Irene</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Irene_of_Athens">
@@ -8938,6 +8981,7 @@
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
 	<dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
 	<dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Basil II, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+	<dcterms:title>Basil II</dcterms:title>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://dbpedia.org/resource/Basil_II">
