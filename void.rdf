@@ -16,6 +16,11 @@
                 <dcterms:creator rdf:resource="http://www.paregorios.org/me" />
                 <dcterms:contributor>
                     <foaf:Person>
+                        <foaf:name>Ryan Baumann</foaf:name>
+                    </foaf:Person>
+                </dcterms:contributor>
+                <dcterms:contributor>
+                    <foaf:Person>
                         <foaf:name>Daniel Pett</foaf:name>
                         <foaf:homepage rdf:resource="http://www.britishmuseum.org/about_us/departments/staff/portable_antiquities_treasure/daniel_pett.aspx"/>
                     </foaf:Person>
