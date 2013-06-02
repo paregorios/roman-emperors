@@ -10,6 +10,12 @@ This dataset uses the published dbpedia resource URIs for Roman Emperors (the pe
 Status of the work
 -------------------
 
+As of 2013-06-02:
+
+* schema.org terms have been added 
+* all DIR articles now have titles
+* roman-emperors-master.rdf is now efficiently and sensibly chunked and sorted
+
 As of 2012-06-19:
 
 * I believe the list of dbpedia resource URIs are complete (235 URIs).
