@@ -5648,6 +5648,7 @@
       <dcterms>Nerva</dcterms>
       <dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Nerva, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
       <dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
+      <dcterms:title>Nerva</dcterms:title>
       <rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
    </rdf:Description>
