@@ -197,6 +197,7 @@
                 <xsl:when test="$termspace = 'http://dbpedia.org/resource/'">dbpedia</xsl:when>
                 <xsl:when test="$termspace = 'http://nomisma.org/id/'">nomisma</xsl:when>
                 <xsl:when test="$termspace = 'http://purl.org/ontology/bibo/'">bibo</xsl:when>
+                <xsl:when test="$termspace = 'http://schema.org/'">schema</xsl:when>
                 <xsl:otherwise><xsl:value-of select="substring-before(@rdf:resource, $term)"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -376,7 +377,6 @@
                             <ul>
                                 <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/rdf:type">
                                     <xsl:sort select="tokenize(@rdf:resource, '/')[last()]"/>
-                                    <xsl:sort select="@rdf:resource"/>
                                     <xsl:apply-templates select="."/>
                                 </xsl:for-each>
                             </ul>
