@@ -37,8 +37,10 @@
                 <dcterms:subject rdf:resource="http://dbpedia.org/resource/Roman_emperor" />
                 <!-- <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle" /> -->
                 <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" /> 
+                <!--
                 <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-copy.csv" />
                 <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-copy.ttl" />
+                    -->
                 <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.rdf" />
                 <void:uriSpace>http://www.paregorios.org/resources/roman-emperors/</void:uriSpace>
                 <void:uriRegexPattern>^http://www\.paregorios\.org/resources/roman-emperors/about-(.+)$</void:uriRegexPattern>
