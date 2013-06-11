@@ -16,8 +16,14 @@
     <xsl:param name="where">pkg</xsl:param>
     <xsl:param name="docbase">http://www.paregorios.org/resources/roman-emperors/</xsl:param>
     <xsl:param name="cssbase">./css/</xsl:param>
+    <xsl:param name="jsbase">./js/</xsl:param> <!-- change this for production -->
+    <xsl:param name="sparqlbase">http://dbpedia.org/sparql?</xsl:param>
+    <xsl:param name="sparqlgraph">http://dbpedia.org</xsl:param>
+    <xsl:param name="sparqlformat">application/json</xsl:param>
+    <xsl:param name="sparqlajaxformat">json</xsl:param>
     <xsl:output method="xhtml" indent="yes" name="html" omit-xml-declaration="no"/>
     <xsl:output method="xml" indent="yes" name="xml"  exclude-result-prefixes="xs relationship" />
+    
     
     <xsl:template match="/">
         <xsl:apply-templates/>
@@ -353,71 +359,154 @@
                     <!-- <link type="text/turtle" rel="alternate" href="{$docbase}{$rawname}/ttl"/> -->
                 </head>
                 <body>
-                    <div class="persondoc">
-                        <h1>
-                            <xsl:call-template name="getdoctitle"/>
-                        </h1>
-                        <p><strong>Uniform Resource Identifier (URI)</strong> for this document: <a href="{$docbase}{$rawname}"><xsl:value-of select="$docbase"/><xsl:value-of select="$rawname"/></a></p>
-                        <p>Primary URI for the resource described by this document: <a href="{$uri}"><xsl:value-of select="$uri"/></a></p>
-                        <p>Alternate representation of the data presented here:</p>
-                        <ul>
-                            <li>RDF/XML: <a href="{$canonical}.rdf"><xsl:value-of select="$canonical"/>.rdf</a></li>
-                        </ul>
-                        <xsl:if test="//rdf:Description[@rdf:about=$uri]/owl:sameAs">
-                            <h2>In addition to the primary URI, the following URIs also identify ( <a href="http://www.w3.org/TR/owl-ref/#sameAs-def" title="the definition of the term 'sameAs' in the OWL Web Ontology Language">owl:sameAs</a> ) the resource described by this document:</h2>
+                    <div id="container">
+                        <div class="persondoc">
+                            <h1>
+                                <xsl:call-template name="getdoctitle"/>
+                            </h1>
+                            <p><strong>Uniform Resource Identifier (URI)</strong> for this document: <a href="{$docbase}{$rawname}"><xsl:value-of select="$docbase"/><xsl:value-of select="$rawname"/></a></p>
+                            <p>Primary URI for the resource described by this document: <a href="{$uri}"><xsl:value-of select="$uri"/></a></p>
+                            <p>Alternate representation of the data presented here:</p>
                             <ul>
-                                <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/owl:sameAs">
-                                    <xsl:sort select="@rdf:resource"/>
-                                    <xsl:apply-templates select="." mode="sameify"/>
-                                </xsl:for-each>
+                                <li>RDF/XML: <a href="{$canonical}.rdf"><xsl:value-of select="$canonical"/>.rdf</a></li>
                             </ul>
-                        </xsl:if>
-                        <xsl:if test="//rdf:Description[@rdf:about=$uri]/rdf:type">
-                            <h2>The following resource <strong>types</strong> (<a href="http://www.w3.org/TR/rdf-schema/#ch_type" title="definition of the term 'type' in the RDF Vocabulary Description Language">rdf:type</a> ) have been associated with the resource:</h2>
-                            <ul>
-                                <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/rdf:type">
-                                    <xsl:sort select="tokenize(@rdf:resource, '/')[last()]"/>
-                                    <xsl:apply-templates select="."/>
-                                </xsl:for-each>
-                            </ul>
-                        </xsl:if>
-                        <xsl:if test="//rdf:Description[@rdf:about=$uri]/foaf:name">
-                            <h2>The following <strong>names</strong> (<a href="http://xmlns.com/foaf/spec/#term_name" title="definition of the term 'name' in the Friend-of-a-Friend (FOAF) vocabulary">foaf:name</a> ) have been associated with the resource:</h2>
-                            <ul>
-                                <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/foaf:name">
-                                    <xsl:sort/>
-                                    <xsl:apply-templates select="."/>
-                                </xsl:for-each>
-                            </ul>
-                        </xsl:if>
-                        <!-- <xsl:apply-templates select="//rdf:Description[@rdf:about=$uri]/*"/> -->
-                        <h2>The following <strong>resources</strong> provide additional information about the resource described by this document ( <a href="http://xmlns.com/foaf/spec/#term_isPrimaryTopicOf" title="definition of the term 'isPrimaryTopicOf' in the FOAF Vocabulary">foaf:isPrimaryTopicOf</a> ):</h2>
-                        <ul class="opened"><xsl:for-each select="//rdf:Description[@rdf:about=$uri]/foaf:isPrimaryTopicOf">
-                            <xsl:sort select="//rdf:Description[@rdf:about=current()/@rdf:resource and dcterms:title][1]/dcterms:title[1]"/>
-                            <xsl:apply-templates select="." mode="topic"/>
-                        </xsl:for-each></ul>
-                        <xsl:if test="//foaf:knows[@rdf:resource=$uri]">
-                            <p>This individual is known to the following:</p>
-                            <ul>
-                                <xsl:for-each select="//foaf:knows[@rdf:resource=$uri]">
-                                    <xsl:sort/>
-                                    <li><a href="{../@rdf:about}"><xsl:value-of select="normalize-space(../foaf:name[1])"/></a></li>
-                                </xsl:for-each>
-                            </ul>
-                        </xsl:if>
-                        <xsl:call-template name="extras">
-                            <xsl:with-param name="uri" select="$uri"/>
-                        </xsl:call-template>
-                        
+                            <xsl:if test="//rdf:Description[@rdf:about=$uri]/owl:sameAs">
+                                <h2>In addition to the primary URI, the following URIs also identify ( <a href="http://www.w3.org/TR/owl-ref/#sameAs-def" title="the definition of the term 'sameAs' in the OWL Web Ontology Language">owl:sameAs</a> ) the resource described by this document:</h2>
+                                <ul>
+                                    <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/owl:sameAs">
+                                        <xsl:sort select="@rdf:resource"/>
+                                        <xsl:apply-templates select="." mode="sameify"/>
+                                    </xsl:for-each>
+                                </ul>
+                            </xsl:if>
+                            <xsl:if test="//rdf:Description[@rdf:about=$uri]/rdf:type">
+                                <h2>The following resource <strong>types</strong> (<a href="http://www.w3.org/TR/rdf-schema/#ch_type" title="definition of the term 'type' in the RDF Vocabulary Description Language">rdf:type</a> ) have been associated with the resource:</h2>
+                                <ul>
+                                    <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/rdf:type">
+                                        <xsl:sort select="tokenize(@rdf:resource, '/')[last()]"/>
+                                        <xsl:apply-templates select="."/>
+                                    </xsl:for-each>
+                                </ul>
+                            </xsl:if>
+                            <xsl:if test="//rdf:Description[@rdf:about=$uri]/foaf:name">
+                                <h2>The following <strong>names</strong> (<a href="http://xmlns.com/foaf/spec/#term_name" title="definition of the term 'name' in the Friend-of-a-Friend (FOAF) vocabulary">foaf:name</a> ) have been associated with the resource:</h2>
+                                <ul>
+                                    <xsl:for-each select="//rdf:Description[@rdf:about=$uri]/foaf:name">
+                                        <xsl:sort/>
+                                        <xsl:apply-templates select="."/>
+                                    </xsl:for-each>
+                                </ul>
+                            </xsl:if>
+                            <!-- <xsl:apply-templates select="//rdf:Description[@rdf:about=$uri]/*"/> -->
+                            <h2>The following <strong>resources</strong> provide additional information about the resource described by this document ( <a href="http://xmlns.com/foaf/spec/#term_isPrimaryTopicOf" title="definition of the term 'isPrimaryTopicOf' in the FOAF Vocabulary">foaf:isPrimaryTopicOf</a> ):</h2>
+                            <ul class="opened"><xsl:for-each select="//rdf:Description[@rdf:about=$uri]/foaf:isPrimaryTopicOf">
+                                <xsl:sort select="//rdf:Description[@rdf:about=current()/@rdf:resource and dcterms:title][1]/dcterms:title[1]"/>
+                                <xsl:apply-templates select="." mode="topic"/>
+                            </xsl:for-each></ul>
+                            <xsl:if test="//foaf:knows[@rdf:resource=$uri]">
+                                <p>This individual is known to the following:</p>
+                                <ul>
+                                    <xsl:for-each select="//foaf:knows[@rdf:resource=$uri]">
+                                        <xsl:sort/>
+                                        <li><a href="{../@rdf:about}"><xsl:value-of select="normalize-space(../foaf:name[1])"/></a></li>
+                                    </xsl:for-each>
+                                </ul>
+                            </xsl:if>
+                            <xsl:call-template name="extras">
+                                <xsl:with-param name="uri" select="$uri"/>
+                            </xsl:call-template>
+                            
+                        </div>
+                        <div id="related">
+                            <h2>Related:</h2>
+                            <p>The following information has just been extracted from information resources elsewhere on the web by means of SPARQL queries and JavaScript using the various identifiers as indicated. This information is not contained in the source "About Roman Emperors" documents, and is presented here automatically and in accordance with the licenses governing the source resources.</p>
+                        </div>
                     </div>
                     <div id="footer">
                         <p>This document is part of the <a href="{$vpage}"><xsl:value-of select="$vtitle"/></a> dataset.</p>
                         <a href="{$docbase}{$rawname}.rdf" title="metadata about this resource in RDF format"><img border="0" src="http://www.w3.org/RDF/icons/rdf_metadata_button.32"
                             alt="RDF Resource Description Framework Metadata Icon"/></a>
                     </div>
+                    <xsl:call-template name="personscript">
+                        <xsl:with-param name="personuri" select="$uri"/>
+                    </xsl:call-template>
                 </body>
             </html>
         </xsl:result-document>
+    </xsl:template>
+    
+    <xsl:template name="personscript">
+        <xsl:param name="personuri"/>
+        <xsl:if test="$personuri!=''">
+            <xsl:variable name="sparqlquery">                
+                <xsl:text>prefix dbpo: &lt;http://dbpedia.org/ontology/> </xsl:text>
+                <xsl:text>prefix foaf: &lt;http://xmlns.com/foaf/0.1/> </xsl:text>
+                <xsl:text>select distinct ?title, ?pict, ?label, ?abstract </xsl:text>
+                <xsl:text>where {</xsl:text>
+                <xsl:text>&lt;</xsl:text><xsl:value-of select="$personuri"/><xsl:text>&gt;</xsl:text>
+                <xsl:text> dbpo:title ?title ; </xsl:text>
+                <xsl:text>foaf:depiction ?pict ; </xsl:text>
+                <xsl:text>rdfs:label ?label ; </xsl:text>
+                <xsl:text>dbpo:abstract ?abstract FILTER ( lang(?abstract) = "en" )} </xsl:text>
+            </xsl:variable>
+            <xsl:variable name="sparqluri">
+                <xsl:text>default-graph-uri=</xsl:text><xsl:value-of select="encode-for-uri(normalize-space($sparqlgraph))"/><xsl:text>&amp;query=</xsl:text><xsl:value-of select="encode-for-uri(normalize-space($sparqlquery))"/><xsl:text>&amp;format=</xsl:text><xsl:value-of select="encode-for-uri(normalize-space($sparqlformat))"/>
+            </xsl:variable>
+            <script type="text/javascript" src="{$jsbase}/jquery-1.10.1.js"/>
+            <script type="text/javascript">
+                <!--<xsl:text disable-output-escaping="yes">&lt;![CDATA[</xsl:text> -->
+                var queryURI = '<xsl:value-of select="$sparqlbase" disable-output-escaping="yes"/><xsl:value-of select="replace(replace(replace($sparqluri, '%20', '+'), '%7B', '{'), '%7D', '}')" disable-output-escaping="yes"/>';
+                
+                $.ajax({
+                    beforeSend: function(xhrObj){
+                        xhrObj.setRequestHeader("Accept", "<xsl:value-of select="$sparqlformat"/>");
+                    },
+                    dataType: '<xsl:value-of select="$sparqlajaxformat"/>',
+                    url: queryURI,
+                    success: function(data) {
+                        var bindings = data.results.bindings;
+                        
+                        $('#related').append('<xsl:text disable-output-escaping="yes">&lt;div id="dbpedia"></xsl:text>'
+                + '<xsl:text disable-output-escaping="yes">&lt;h3>from dbpedia.org&lt;/h3></xsl:text>'
+                + '<xsl:text disable-output-escaping="yes">&lt;img src="' + bindings[0]["pict"]["value"] + '" alt="wikipedia image"/></xsl:text>'
+                + '<xsl:text disable-output-escaping="yes">&lt;ul id="dbpnames">&lt;/ul></xsl:text>'                
+                + '<xsl:text disable-output-escaping="yes">&lt;p>' + bindings[0]["title"]["value"] + '&lt;/p></xsl:text>'
+                + '<xsl:text disable-output-escaping="yes">&lt;p>' + bindings[0]["abstract"]["value"] + '&lt;/p></xsl:text>'
+                + '<xsl:text disable-output-escaping="yes">&lt;p>Query URL: ' + queryURI + '&lt;/p></xsl:text>'
+                + '<xsl:text disable-output-escaping="yes">&lt;/div></xsl:text>');
+                        <xsl:text disable-output-escaping="yes">for (var i = 0; i &lt; bindings.length; i++) {</xsl:text>
+                            $('#dbpnames').append('<xsl:text disable-output-escaping="yes">&lt;li lang="' + bindings[i]["label"]["xml:lang"] + '"></xsl:text>'
+                + bindings[i]["label"]["value"]
+                + '<xsl:text disable-output-escaping="yes">&lt;/li></xsl:text>');
+                        }
+                <!--                         var div = document.createElement("div");
+                        div.id = "dbpedia";
+                       var head = document.createElement("h3");
+                        head.innerHTML="from dbpedia.org";
+                        div.append(head);
+                        var rimg = new Image();
+                        rimg.src = bindings[0]["pict"]["value"];
+                        div.append(rimg);
+                        rimg.setAttribute ("src", bindings[0]["pict"]["value"]);
+                        
+                        
+                        related.append(div);
+                        var head = document.createElement("h3");
+                        div.append(head);
+                        
+                        -->
+                        
+                        <!-- var rhdr = $("#dbp-header");
+                        var rtitle = $("#dbp-title");
+                        rtitle.html(bindings[0]["title"]["value"]); -->
+                        
+                        <!-- var rabs = $("#dbp-abs");
+                        rabs.html(bindings[0]["abstract"]["value"]); -->
+                    }
+                });
+                <!-- <xsl:text disable-output-escaping="yes">]]&gt;</xsl:text> -->
+            </script>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template name="rdfpersondoc">

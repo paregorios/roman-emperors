@@ -13,19 +13,43 @@ h1 {
     margin-top: 0;
     padding-top: 0;
 }
-body > div > * {
+#container {
     margin-left: 2em;
 }
 
-body > div.persondoc > *, #footer * {
+div.persondoc {
+ min-width: 500px;
+ width: 70%;
+ float: left;
+}
+
+#related {
+ min-width: 324px;
+ width: 25%;
+ float: right;
+ background-color: #DDD;
+ padding: 1em;
+}
+
+#dbpedia > img {
+ max-width: 324px;
+ width: 50%;
+ float: right;
+}
+
+#footer {
+ clear: both;
+}
+div.persondoc > *, #footer *, #related * {
     margin-left: 0;
 }
 
-body > div > h2 {
-    text-indent: -2em;
+
+#related h2 {
+ text-indent: 0px;
 }
 
-body > div.persondoc h2 {
+div.persondoc h2 {
     text-indent: 0;
     font: 13px/1.231 arial,helvetica,clean,sans-serif;
 }
