@@ -185,9 +185,7 @@
     
   </xsl:template>
   
-  <xsl:template match="*">
-    <xsl:message>caught and trapped: </xsl:message><xsl:value-of select="name()"/>
-  </xsl:template>
+  <xsl:template match="*"/>
   
   <xsl:template name="emit">
     <xsl:param name="type">text</xsl:param>
