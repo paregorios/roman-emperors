@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:dbpedia="http://dbpedia.org/resource/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nomisma="http://nomisma.org/id/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:schema="http://schema.org/">
+   <rdf:Description rdf:about="http://dbpedia.org/resource/Vitellius">
+      <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Vitellius"/>
+      <foaf:isPrimaryTopicOf rdf:resource="http://finds.org.uk/romancoins/emperors/emperor/id/14"/>
+      <foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/vitell.htm"/>
+      <foaf:isPrimaryTopicOf rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Vitellius"/>
+      <foaf:name>Vitellius</foaf:name>
+      <owl:sameAs rdf:resource="http://nomisma.org/id/vitellius"/>
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/16012563"/>
+      <rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+      <rdf:type rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <rdf:type rdf:resource="http://schema.org/Person"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+      <rdf:type rdf:resource="http://schema.org/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Vitellius">
+      <dcterms:description xml:lang="en">A collaboratively written encyclopedia article about the Roman emperor Vitellius.</dcterms:description>
+      <dcterms:isPartOf rdf:resource="http://en.wikipedia.org"/>
+      <dcterms:title>Vitellius</dcterms:title>
+      <rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+      <rdf:type rdf:resource="http://schema.org/WebPage"/>
+      <rdf:type rdf:resource="http://schema.org/WebPage"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+      <schema:about rdf:resource="http://dbpedia.org/resource/Vitellius"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://finds.org.uk/romancoins/emperors/emperor/id/14">
+      <dcterms:description xml:lang="en">An historical profile of the Roman emperor Vitellius that provides general information and places special emphasis on the coinage of that emperor's reign. Links to illustrated database records for ancient coins found in Britain and registered with the Portable Antiquities Scheme are provided.</dcterms:description>
+      <dcterms:isPartOf rdf:resource="http://finds.org.uk"/>
+      <dcterms:title xml:lang="en">Profile for Emperor: Vitellius</dcterms:title>
+      <rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+      <rdf:type rdf:resource="http://schema.org/WebPage"/>
+      <rdf:type rdf:resource="http://schema.org/WebPage"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+      <schema:about rdf:resource="http://dbpedia.org/resource/Vitellius"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.roman-emperors.org/vitell.htm">
+      <dcterms:description xml:lang="en">A peer-reviewed encyclopedia article about the Roman emperor Vitellius, written by a scholar but meant to be accessible to non-specialists as well.</dcterms:description>
+      <dcterms:isPartOf rdf:resource="http://www.roman-emperors.org"/>
+      <dcterms:title>Vitellius</dcterms:title>
+      <rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+      <rdf:type rdf:resource="http://schema.org/WebPage"/>
+      <rdf:type rdf:resource="http://schema.org/ScholarlyArticle"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+      <schema:about rdf:resource="http://dbpedia.org/resource/Vitellius"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Vitellius">
+      <dcterms:description>A web page of open-licensed images drawn from the Flickr photo-sharing website that the Flickrwrappr algorithm calculates are likely to be associated with the primary URI of the resource described by this document (http://dbpedia.org/resource/Vitellius).</dcterms:description>
+      <dcterms:isPartOf rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/"/>
+      <dcterms:title>Photos for DBpedia.org resource Vitellius</dcterms:title>
+      <rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+      <rdf:type rdf:resource="http://schema.org/WebPage"/>
+      <rdf:type rdf:resource="http://schema.org/ImageGallery"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+      <schema:about rdf:resource="http://dbpedia.org/resource/Vitellius"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.paregorios.org/resources/roman-emperors/about-vitellius">
+      <foaf:primaryTopic rdf:resource="http://dbpedia.org/resource/Vitellius"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+      <rdfs:label>About the Roman Emperor Vitellius</rdfs:label>
+      <dcterms:creator rdf:resource="http://www.paregorios.org/me"/>
+      <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Ryan Baumann</foaf:name>
+                    </foaf:Person>
+                </dcterms:contributor>
+      <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Daniel Pett</foaf:name>
+                        <foaf:homepage rdf:resource="http://www.britishmuseum.org/about_us/departments/staff/portable_antiquities_treasure/daniel_pett.aspx"/>
+                    </foaf:Person>
+                </dcterms:contributor>
+      <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Roko Rumora</foaf:name>
+                    </foaf:Person>
+                </dcterms:contributor>
+      <dcterms:publisher rdf:resource="http://www.paregorios.org/me"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-19</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-03</dcterms:modified>
+      <dcterms:license rdf:resource="http://opendatacommons.org/licenses/pddl/"/>
+      <dcterms:isPartOf rdf:resource="http://www.paregorios.org/resources/roman-emperors/"/>
+   </rdf:Description>
+</rdf:RDF>

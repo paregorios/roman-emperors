@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:void="http://rdfs.org/ns/void#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+    <void:DatasetDescription rdf:about="http://www.paregorios.org/resources/roman-emperors/void">
+        <dcterms:title>A VoID Description of the Roman Emperors Dataset</dcterms:title>
+        <dcterms:creator>
+            <foaf:Person rdf:about="http://www.paregorios.org/me">
+                <foaf:name>Tom Elliott</foaf:name>
+                <foaf:homepage rdf:resource="http://www.paregorios.org" />
+            </foaf:Person>
+        </dcterms:creator>
+        <foaf:primaryTopic>
+            <void:Dataset rdf:about="#RomanEmperors">
+                <dcterms:title>About Roman Emperors</dcterms:title>
+                <dcterms:description>Linked Data about Roman Emperors</dcterms:description>
+                <foaf:homepage rdf:resource="http://www.paregorios.org/resources/roman-emperors/" />
+                <dcterms:creator rdf:resource="http://www.paregorios.org/me" />
+                <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Ryan Baumann</foaf:name>
+                    </foaf:Person>
+                </dcterms:contributor>
+                <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Daniel Pett</foaf:name>
+                        <foaf:homepage rdf:resource="http://www.britishmuseum.org/about_us/departments/staff/portable_antiquities_treasure/daniel_pett.aspx"/>
+                    </foaf:Person>
+                </dcterms:contributor>
+                <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Roko Rumora</foaf:name>
+                    </foaf:Person>
+                </dcterms:contributor>
+                <dcterms:publisher rdf:resource="http://www.paregorios.org/me" />
+                <dcterms:license rdf:resource="http://opendatacommons.org/licenses/pddl/" />
+                <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-19</dcterms:created>
+                <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-03</dcterms:modified>
+                <dcterms:subject rdf:resource="http://dbpedia.org/resource/Roman_emperor" />
+                <!-- <void:feature rdf:resource="http://www.w3.org/ns/formats/Turtle" /> -->
+                <void:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML" /> 
+                <!--
+                <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-copy.csv" />
+                <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-copy.ttl" />
+                    -->
+                <void:dataDump rdf:resource="http://www.paregorios.org/resources/roman-emperors/data-dump/roman-emperors-master.rdf" />
+                <void:uriSpace>http://www.paregorios.org/resources/roman-emperors/</void:uriSpace>
+                <void:uriRegexPattern>^http://www\.paregorios\.org/resources/roman-emperors/about-(.+)$</void:uriRegexPattern>
+                <void:exampleResource rdf:resource="http://www.paregorios.org/resources/roman-emperors/about-augustus" />
+                <void:vocabulary rdf:resource="http://xmlns.com/foaf/0.1/" />
+                <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema#" />
+                <void:vocabulary rdf:resource="http://purl.org/ontology/bibo/" />
+                <void:vocabulary rdf:resource="http://dbpedia.org/resource/" />
+                <void:vocabulary rdf:resource="http://www.w3.org/2002/07/owl#" />
+                <void:vocabulary rdf:resource="http://nomisma.org/id/"/>
+                <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+                <void:vocabulary rdf:resource="http://schema.org/"/>
+            </void:Dataset>
+        </foaf:primaryTopic>
+    </void:DatasetDescription>
+</rdf:RDF>

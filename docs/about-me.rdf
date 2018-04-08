@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:dbpedia="http://dbpedia.org/resource/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <rdf:Description rdf:about="http://www.paregorios.org/me">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.paregorios.org/resources/roman-emperors/about-me">
+      <foaf:primaryTopic rdf:resource="http://www.paregorios.org/me"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+      <rdfs:label>About the Roman Emperor </rdfs:label>
+      <dcterms:creator rdf:resource="http://www.paregorios.org/me"/>
+      <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Roko Rumora</foaf:name>
+                    </foaf:Person>
+                </dcterms:contributor>
+      <dcterms:publisher rdf:resource="http://www.paregorios.org/me"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-19</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-20</dcterms:modified>
+      <dcterms:license rdf:resource="http://opendatacommons.org/licenses/pddl/"/>
+      <dcterms:isPartOf rdf:resource="http://www.paregorios.org/resources/roman-emperors/"/>
+   </rdf:Description>
+</rdf:RDF>

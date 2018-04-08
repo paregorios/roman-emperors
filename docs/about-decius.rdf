@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:dbpedia="http://dbpedia.org/resource/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nomisma="http://nomisma.org/id/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:schema="http://schema.org/">
+   <rdf:Description rdf:about="http://dbpedia.org/resource/Decius">
+      <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Decius"/>
+      <foaf:isPrimaryTopicOf rdf:resource="http://finds.org.uk/romancoins/emperors/emperor/id/68"/>
+      <foaf:isPrimaryTopicOf rdf:resource="http://www.roman-emperors.org/decius.htm"/>
+      <foaf:isPrimaryTopicOf rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Decius"/>
+      <foaf:name>Decius</foaf:name>
+      <foaf:name> Gaius Messius Quintus Decius</foaf:name>
+      <foaf:name>Trajan Decius</foaf:name>
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/10649322"/>
+      <rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+      <rdf:type rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <rdf:type rdf:resource="http://schema.org/Person"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+      <rdf:type rdf:resource="http://schema.org/Person"/>
+   </rdf:Description>

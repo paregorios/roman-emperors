@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:dbpedia="http://dbpedia.org/resource/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nomisma="http://nomisma.org/id/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:schema="http://schema.org/">
+   <rdf:Description rdf:about="http://dbpedia.org/resource/Comentiolus_(brother_of_Phocas)">
+      <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Comentiolus_(brother_of_Phocas)"/>
+      <foaf:isPrimaryTopicOf rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Comentiolus_(brother_of_Phocas)"/>
+      <foaf:name>Comentiolus</foaf:name>
+      <rdf:type rdf:resource="http://dbpedia.org/resource/Roman_emperor"/>
+      <rdf:type rdf:resource="http://nomisma.org/id/roman_emperor"/>
+      <rdf:type rdf:resource="http://schema.org/Person"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+      <rdf:type rdf:resource="http://schema.org/Person"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Comentiolus_(brother_of_Phocas)">
+      <dcterms:description xml:lang="en">A collaboratively written encyclopedia article about the Roman emperor Comentiolus.</dcterms:description>
+      <dcterms:isPartOf rdf:resource="http://en.wikipedia.org"/>
+      <dcterms:title>Comentiolus (brother of Phocas)</dcterms:title>
+      <rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+      <rdf:type rdf:resource="http://schema.org/WebPage"/>
+      <rdf:type rdf:resource="http://schema.org/WebPage"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+      <schema:about rdf:resource="http://dbpedia.org/resource/Comentiolus_(brother_of_Phocas)"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/Comentiolus_(brother_of_Phocas)">
+      <dcterms:description>A web page of open-licensed images drawn from the Flickr photo-sharing website that the Flickrwrappr algorithm calculates are likely to be associated with the primary URI of the resource described by this document (http://dbpedia.org/resource/Comentiolus_(brother_of_Phocas)).</dcterms:description>
+      <dcterms:isPartOf rdf:resource="http://www4.wiwiss.fu-berlin.de/flickrwrappr/"/>
+      <dcterms:title>Photos for DBpedia.org resource Comentiolus_(brother_of_Phocas)</dcterms:title>
+      <rdf:type rdf:resource="http://purl.org/ontology/bibo/Webpage"/>
+      <rdf:type rdf:resource="http://schema.org/WebPage"/>
+      <rdf:type rdf:resource="http://schema.org/ImageGallery"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+      <schema:about rdf:resource="http://dbpedia.org/resource/Comentiolus_(brother_of_Phocas)"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.paregorios.org/resources/roman-emperors/about-comentiolus-brother-of-phocas">
+      <foaf:primaryTopic rdf:resource="http://dbpedia.org/resource/Comentiolus_(brother_of_Phocas)"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+      <rdfs:label>About the Roman Emperor Comentiolus</rdfs:label>
+      <dcterms:creator rdf:resource="http://www.paregorios.org/me"/>
+      <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Ryan Baumann</foaf:name>
+                    </foaf:Person>
+                </dcterms:contributor>
+      <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Daniel Pett</foaf:name>
+                        <foaf:homepage rdf:resource="http://www.britishmuseum.org/about_us/departments/staff/portable_antiquities_treasure/daniel_pett.aspx"/>
+                    </foaf:Person>
+                </dcterms:contributor>
+      <dcterms:contributor>
+                    <foaf:Person>
+                        <foaf:name>Roko Rumora</foaf:name>
+                    </foaf:Person>
+                </dcterms:contributor>
+      <dcterms:publisher rdf:resource="http://www.paregorios.org/me"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-19</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-03</dcterms:modified>
+      <dcterms:license rdf:resource="http://opendatacommons.org/licenses/pddl/"/>
+      <dcterms:isPartOf rdf:resource="http://www.paregorios.org/resources/roman-emperors/"/>
+   </rdf:Description>
+</rdf:RDF>
